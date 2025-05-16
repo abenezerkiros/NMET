@@ -1,702 +1,1141 @@
 <!DOCTYPE html>
 <html lang="en">
-   <head>
-      <meta charset="UTF-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <title>Cargon-Blog Single</title>
-      <!-- fav icon -->
-      <link rel="shortcut icon" href="assets/img/icon/ca-fav-3.svg">
-      <!-- css file -->
-      <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-      <link rel="stylesheet" href="assets/css/all.css">
-      <link rel="stylesheet" href="assets/css/magnific-popup.css">
-      <link rel="stylesheet" href="assets/css/slick.css">
-      <link rel="stylesheet" href="assets/css/slick-theme.css">
-      <link rel="stylesheet" href="assets/css/nice-select.css">
-      <link rel="stylesheet" href="assets/css/typography.css">
-      <link rel="stylesheet" href="assets/css/aos.css">
-      <link rel="stylesheet" href="assets/css/style.css">
-      <link rel="stylesheet" href="assets/css/responsive.css">
-   </head>
-   <body>
-      <!-- preloader -->
-      <div id="preloader">
-         <div id="ctn-preloader" class="ctn-preloader">
-            <div class="animation-preloader">
-               <div class="spinner"></div>
-               <div class="txt-loading">
-                  <span data-text-preloader="C" class="letters-loading">C</span>
-                  <span data-text-preloader="A" class="letters-loading">A</span>
-                  <span data-text-preloader="R" class="letters-loading">R</span>
-                  <span data-text-preloader="G" class="letters-loading">G</span>
-                  <span data-text-preloader="O" class="letters-loading">O</span>
-                  <span data-text-preloader="N" class="letters-loading">N</span>
-               </div>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="wpOceans">
+    <link rel="shortcut icon" type="image/png" href="assets/images/favicon.png">
+    <title>Consultar - Business Consulting Services HTML5 Template</title>
+    <link href="assets/css/themify-icons.css" rel="stylesheet">
+    <link href="assets/css/flaticon.css" rel="stylesheet">
+    <link href="assets/css/magnific-popup.css" rel="stylesheet">
+    <link href="assets/css/animate.css" rel="stylesheet">
+    <link href="assets/css/owl.carousel.css" rel="stylesheet">
+    <link href="assets/css/owl.theme.css" rel="stylesheet">
+    <link href="assets/css/slick.css" rel="stylesheet">
+    <link href="assets/css/slick-theme.css" rel="stylesheet">
+    <link href="assets/css/swiper.min.css" rel="stylesheet">
+    <link href="assets/css/owl.transitions.css" rel="stylesheet">
+    <link href="assets/css/jquery.fancybox.css" rel="stylesheet">
+    <link href="assets/css/odometer-theme-default.css" rel="stylesheet">
+    <link href="assets/css/global.css" rel="stylesheet">
+    <link href="assets/css/style.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <!-- start page-wrapper -->
+    <div class="page-wrapper">
+        <!-- start preloader -->
+        <div class="preloader">
+            <div class="vertical-centered-box">
+                <div class="content">
+                    <div class="loader-circle"></div>
+                    <div class="loader-line-mask">
+                        <div class="loader-line"></div>
+                    </div>
+                    <img src="assets/images/preloader.png" alt="">
+                </div>
             </div>
-            <div class="loader">
-               <div class="row">
-                  <div class="col-3 loader-section section-left">
-                     <div class="bg"></div>
-                  </div>
-                  <div class="col-3 loader-section section-left">
-                     <div class="bg"></div>
-                  </div>
-                  <div class="col-3 loader-section section-right">
-                     <div class="bg"></div>
-                  </div>
-                  <div class="col-3 loader-section section-right">
-                     <div class="bg"></div>
-                  </div>
-               </div>
-            </div>
-         </div>
-      </div>
-      <!-- preloader end -->
-      <!-- Header Area Start-->
-      <header class="header-area-3 stiky">
-         <div class="container header-3">
-            <div class="row align-items-center">
-               <div class="col-xl-3 col-lg col-md-6 col-6">
-                  <!-- ca-logo -->
-                  <div class="ca-logo">
-                     <a href="index-03.html"><img src="assets/img/logo/ca-logo3.1.png" alt=""></a>
-                  </div>
-               </div>
-               <div class="col-xl-6 col-lg-7 d-none d-lg-block">
-                  <!-- ca-main-menu -->
-                  <div class="ca-main-menu-3">
-                     <nav class="ca-mobile-menu-active-3">
-                        <ul>
-                           <li>
-                              <a href="#">Home <span><i class="fa-solid fa-angle-down"></i></span></a>
-                              <ul class="sub-menu">
-                                 <li><a href="index.html">Home 01</a></li>
-                                 <li><a href="index-02.html">Home 02</a></li>
-                                 <li><a href="index-03.html">Home 03</a></li>
-                                 <li><a href="index-04.html">Home 04</a></li>
-                              </ul>
-                           </li>
-                           <li><a href="about.html">About Us</a></li>
-                           <li>
-                              <a href="#">Service <span><i class="fa-solid fa-angle-down"></i></span></a>
-                              <ul class="sub-menu">
-                                 <li><a href="service.html">Service</a></li>
-                                 <li><a href="service-left.html">Service Left</a></li>
-                                 <li><a href="service-right.html">Service Right</a></li>
-                                 <li><a href="service-single.html">Service Single</a></li>
-                              </ul>
-                           </li>
-                           <li>
-                              <a href="#">Pages <span><i class="fa-solid fa-angle-down"></i></span></a>
-                              <ul class="sub-menu">
-                                 <li><a href="team.html">Team</a></li>
-                                 <li><a href="testimonial.html">Testimonial</a></li>
-                                 <li><a href="faq.html">Faq</a></li>
-                                 <li><a href="pricing.html">Pricing Plan</a></li>
-                                 <li><a href="contact.html">Contact</a></li>
-                                 <li><a href="404.html">404</a></li>
-                              </ul>
-                           </li>
-                           <li>
-                              <a href="#">Blog <span><i class="fa-solid fa-angle-down"></i></span></a>
-                              <ul class="sub-menu">
-                                 <li><a href="blog.html">Blog</a></li>
-                                 <li><a href="blog-left.html">Blog Left</a></li>
-                                 <li><a href="blog-right.html">Blog Right</a></li>
-                                 <li><a href="blog-single.html">Blog Single</a></li>
-                              </ul>
-                           </li>
-                           <li>
-                              <a href="#">Projects <span><i class="fa-solid fa-angle-down"></i></span></a>
-                              <ul class="sub-menu">
-                                 <li><a href="projects.html">Project</a></li>
-                                 <li><a href="project-left.html">Project Left</a></li>
-                                 <li><a href="project-right.html">Project Right</a></li>
-                                 <li><a href="project-single.html">Project Single</a></li>
-                              </ul>
-                           </li>
+        </div>
+
+        <!-- start header-section -->
+        <section class="bg-white">
+            <h1 class="hidden">section heading hidden</h1>
+            <div class="px-[130px] lg:px-[30px] py-[15px] col:px-0 bg-[#283a5e]">
+                <div class="grid grid-cols-12 gap-8 lg:gap-3">
+                    <div class="col-span-7 md:col-span-12 md:mx-auto">
+                        <ul class="md:float-none md:mx-auto">
+                            <li class="text-[16px] float-left col:float-none col:text-center px-[10px] text-[#e5e3e3]">
+                                <i class="fi ti-location-pin relative top-[1px] inline-block pr-[3px]"></i>
+                                7 Green Lake Street Crawfordsville
+                            </li>
+                            <li class="text-[16px] float-left col:float-none col:text-center px-[10px] text-[#e5e3e3]">
+                                <i class="fi flaticon-email relative top-[1px] inline-block pr-[3px]"></i>
+                                consultar@gmail.com
+                            </li>
                         </ul>
-                     </nav>
-                  </div>
-               </div>
-               <div class="col-xl-3 col-lg col-md-6 col-6">
-                  <!-- ca-btn -->
-                  <div class="ca-btn-header d-none d-lg-block text-end">
-                     <a href="contact.html" class="ca-btn-primary-3 theme-bg-3 text-white br-50">Get A Quote <span><i class="fa-solid fa-angle-right"></i></span></a>
-                  </div>
-                  <div class="ca-header-action-item d-lg-none text-end">
-                     <button type="button" class="ca-offcanvas-toogle">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="16" viewBox="0 0 30 16">
-                           <rect x="10" width="20" height="2" fill="currentColor"></rect>
-                           <rect x="5" y="7" width="25" height="2" fill="currentColor"></rect>
-                           <rect x="10" y="14" width="20" height="2" fill="currentColor"></rect>
-                        </svg>
-                     </button>
-                  </div>
-               </div>
+                    </div>
+                    <div class="col-span-5 md:col-span-12 md:mx-auto">
+                        <ul class="float-right md:float-none md:mx-auto">
+                            <li class="text-[16px] float-left px-[10px] text-[#e5e3e3]">Visit our social pages</li>
+                            <li class="text-[16px] float-left px-[10px] text-[#e5e3e3]">
+                                <a href="#" class="text-[#fff] transition-all hover:text-[#7db1f0]">
+                                    <i class="ti-facebook"></i>
+                                </a>
+                            </li>
+                            <li class="text-[16px] float-left px-[10px] text-[#e5e3e3]">
+                                <a href="#" class="text-[#fff] transition-all hover:text-[#7db1f0]">
+                                    <i class="ti-twitter-alt"></i>
+                                </a>
+                            </li>
+                            <li class="text-[16px] float-left px-[10px] text-[#e5e3e3]">
+                                <a href="#" class="text-[#fff] transition-all hover:text-[#7db1f0]">
+                                    <i class="ti-instagram"></i>
+                                </a>
+                            </li>
+                            <li class="text-[16px] float-left px-[10px] text-[#e5e3e3]">
+                                <a href="#" class="text-[#fff] transition-all hover:text-[#7db1f0]">
+                                    <i class="ti-google"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
             </div>
-         </div>
-      </header>
-      <!-- header area end -->
-       
-      <!-- offcanvas start -->
-      <div class="ca-offcanvas w-bg">
-         <div class="ca-offcanvas-wrapper">
-            <div class="ca-offcanvas-header d-flex justify-content-between align-items-center mb-40">
-               <div class="ca-offcanvas-logo">
-                  <a href="#"><img src="assets/img/logo/ca-logo3.1.png" alt=""></a>
-               </div>
-               <div class="ca-offcanvas-close">
-                  <button class="ca-offcanvas-close-toggle"><i class="fal fa-times"></i></button>
-               </div>
-            </div>
-            <div class="ca-offcanvas-menu-3 mb-40">
-               <nav>
-               </nav>
-            </div>
-            <div class="ca-offcanvas-contact mb-40">
-               <a href="#" class="ca-btn-primary-3 theme-bg-3 text-white br-50">Get A Quote <span><i class="fa-solid fa-angle-right"></i></span></a>
-            </div>
-            <div class="ca-offcanvas-contact-info mb-40">
-               <h3 class="ca-offcanvas-sm-title">Contact Info</h3>
-                <!-- single item -->
-                <div class="ca-sm-single-item-4 ca-sm-single-item-1 mb-20">
-                  <div class="icon">
-                     <span>
-                        <i class="fa-solid fa-location-dot"></i>
-                     </span>
-                  </div>
-                  <div class="ca-sm-single-item-4-content">
-                     <p><a href="#">55 Street, 2nd block, 3rd Floor
-                        Melbourne, Australia</a></p>
-                  </div>
-               </div>
 
-               <!-- single item -->
-               <div class="ca-sm-single-item-4 ca-sm-single-item-1 mb-20">
-                  <div class="icon">
-                     <span>
-                        <i class="fa-solid fa-phone"></i>
-                     </span>
-                  </div>
-                  <div class="ca-sm-single-item-4-content">
-                     <p><a href="tel:+0221234568806">+022 (123) 456 88 06</a></p>
-                  </div>
-               </div>
+            <div class="px-[130px] lg:px-[30px] col:px-0 md:py-[10px]">
+                <div class="flex items-center justify-between">
+                    <div id="dl-menu" class="dl-menuwrapper hidden md:block">
+                        <button class="dl-trigger">Open Menu</button>
+                        <ul class="dl-menu">
+                            <li>
+                                <a href="#">Home</a>
+                                <ul class="dl-submenu">
+                                    <li><a href="index.html">Home style 1</a></li>
+                                    <li><a href="index-2.html">Home style 2</a></li>
+                                    <li><a href="index-3.html">Home style 3</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="about.html">About</a></li>
+                            <li><a href="#">Services</a>
+                                <ul class="dl-submenu">
+                                    <li><a href="service.html">Service</a></li>
+                                    <li><a href="service-single.html">Service Single</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">Projects</a>
+                                <ul class="dl-submenu">
+                                    <li><a href="project.html">Project</a></li>
+                                    <li><a href="project-single.html">Project Single</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">Pages</a>
+                                <ul class="dl-submenu">
+                                    <li><a href="about.html">About</a></li>
+                                    <li><a href="pricing.html">Pricing</a></li>
+                                    <li><a href="404.html">Error 404</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="http://google.com">Blog</a>
+                                <ul class="dl-submenu">
+                                    <li><a href="blog.html">Blog right sidebar</a></li>
+                                    <li><a href="blog-left-sidebar.html">Blog left sidebar</a></li>
+                                    <li><a href="blog-fullwidth.html">Blog fullwidth</a></li>
+                                    <li>
+                                        <a href="#">Blog details</a>
+                                        <ul class="dl-submenu">
+                                            <li><a href="blog-single.html">Blog details right sidebar</a></li>
+                                            <li><a href="blog-single-left-sidebar.html">Blog details left sidebar</a>
+                                            </li>
+                                            <li><a href="blog-single-fullwidth.html">Blog details fullwidth</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li><a href="contact.html">Contact</a></li>
+                        </ul>
+                    </div><!-- /dl-menuwrapper -->
+                    <div class="w-[195px] md:w-[280px] sm:w-[200px] col:w-[150px]">
+                        <a class="flex items-center md:justify-center text-white" href="index.html">
+                            <img class="mr-[10px] " src="assets/images/logo.png" alt=""></a>
+                    </div>
+                    <ul class="md:hidden">
+                        <li class="relative inline-block group">
+                            <a href="#" class="relative text-[20px] lg:text-[17px] py-[35px]
+                             xl:py-[30px] px-[20px] xl:px-[6px]
+                                text-[#232f4b] block capitalize
+                                font-heading-font font-medium transition-all
+                                 hover:text-[#3757f7]">Home</a>
+                            <ul class="absolute w-[240px]  left-0 top-[110%] p-[20px] z-[111]  bg-[#fff] shadow-[0px_2px_20px_0px_rgba(62,65,159,0.09);]  transition-all  opacity-0 invisible
+                                    group-hover:opacity-100 group-hover:top-full group-hover:visible
+                                    ">
+                                <li>
+                                    <a href="index.html" class="text-[20px] lg:text-[17px] inline-block py-[5px] capitalize text-[#002642] group relative overflow-hidden font-medium transition-all 
+                                        after:absolute after:left-0 after:bottom-[5px] after:w-0 after:h-[1px]
+                                        after:content after:bg-[#3757f7] after:transition-all font-heading-font
+                                        hover:after:w-[50%]">Main Home</a>
+                                </li>
+                                <li>
+                                    <a href="index-2.html" class="text-[20px] lg:text-[17px] inline-block py-[5px] capitalize text-[#002642] group relative overflow-hidden font-medium transition-all 
+                                        after:absolute after:left-0 after:bottom-[5px] after:w-0 after:h-[1px]
+                                        after:content after:bg-[#3757f7] after:transition-all font-heading-font
+                                        hover:after:w-[50%]">Home Style 2</a>
+                                </li>
+                                <li>
+                                    <a href="index-3.html" class="text-[20px] lg:text-[17px] inline-block py-[5px] capitalize text-[#002642] group relative overflow-hidden font-medium transition-all 
+                                        after:absolute after:left-0 after:bottom-[5px] after:w-0 after:h-[1px]
+                                        after:content after:bg-[#3757f7] after:transition-all font-heading-font
+                                        hover:after:w-[50%]">Home Style 3</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="relative inline-block">
+                            <a href="about.html" class="relative text-[20px] lg:text-[17px] py-[35px]
+                             xl:py-[30px] px-[20px] xl:px-[6px]
+                                text-[#232f4b] block capitalize
+                                font-heading-font font-medium transition-all
+                                 hover:text-[#3757f7]
+                            ">About</a>
+                        </li>
+                        <li class="relative inline-block group">
+                            <a href="#" class="relative text-[20px] lg:text-[17px] py-[35px]
+                             xl:py-[30px] px-[20px] xl:px-[6px]
+                                text-[#232f4b] block capitalize
+                                font-heading-font font-medium transition-all
+                                 hover:text-[#3757f7]">Services</a>
+                            <ul
+                                class="absolute w-[240px]  left-0 top-[110%] p-[20px] z-[111]  bg-[#fff] shadow-[0px_2px_20px_0px_rgba(62,65,159,0.09);]  transition-all  opacity-0 invisible group-hover:opacity-100  group-hover:top-full group-hover:visible">
+                                <li>
+                                    <a href="service.html" class="text-[20px] lg:text-[17px] inline-block py-[5px] capitalize text-[#002642] group relative overflow-hidden font-medium transition-all 
+                                        after:absolute after:left-0 after:bottom-[5px] after:w-0 after:h-[1px]
+                                        after:content after:bg-[#3757f7] after:transition-all font-heading-font
+                                        hover:after:w-[50%]">Service</a>
+                                </li>
+                                <li>
+                                    <a href="service-style-2.html" class="text-[20px] lg:text-[17px] inline-block py-[5px] capitalize text-[#002642] group relative overflow-hidden font-medium transition-all 
+                                        after:absolute after:left-0 after:bottom-[5px] after:w-0 after:h-[1px]
+                                        after:content after:bg-[#3757f7] after:transition-all font-heading-font
+                                        hover:after:w-[50%]">Service style 2</a>
+                                </li>
+                                <li>
+                                    <a href="service-single.html" class="text-[20px] lg:text-[17px] inline-block py-[5px] capitalize text-[#002642] group relative overflow-hidden font-medium transition-all 
+                                        after:absolute after:left-0 after:bottom-[5px] after:w-0 after:h-[1px]
+                                        after:content after:bg-[#3757f7] after:transition-all font-heading-font
+                                        hover:after:w-[50%]">Service Single</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="relative inline-block group">
+                            <a href="#" class="relative text-[20px] lg:text-[17px] py-[35px]
+                             xl:py-[30px] px-[20px] xl:px-[6px]
+                                text-[#232f4b] block capitalize
+                                font-heading-font font-medium transition-all
+                                 hover:text-[#3757f7]">Projects</a>
+                            <ul
+                                class="absolute w-[240px]  left-0 top-[110%] p-[20px] z-[111]  bg-[#fff] shadow-[0px_2px_20px_0px_rgba(62,65,159,0.09);]  transition-all  opacity-0 invisible group-hover:opacity-100  group-hover:top-full group-hover:visible">
+                                <li>
+                                    <a href="project.html" class="text-[20px] lg:text-[17px] inline-block py-[5px] capitalize text-[#002642] group relative overflow-hidden font-medium transition-all 
+                                        after:absolute after:left-0 after:bottom-[5px] after:w-0 after:h-[1px]
+                                        after:content after:bg-[#3757f7] after:transition-all font-heading-font
+                                        hover:after:w-[50%]">Project</a>
+                                </li>
+                                <li>
+                                    <a href="project-s2.html" class="text-[20px] lg:text-[17px] inline-block py-[5px] capitalize text-[#002642] group relative overflow-hidden font-medium transition-all 
+                                        after:absolute after:left-0 after:bottom-[5px] after:w-0 after:h-[1px]
+                                        after:content after:bg-[#3757f7] after:transition-all font-heading-font
+                                        hover:after:w-[50%]">Project Style 2</a>
+                                </li>
+                                <li>
+                                    <a href="project-single.html" class="text-[20px] lg:text-[17px] inline-block py-[5px] capitalize text-[#002642] group relative overflow-hidden font-medium transition-all 
+                                        after:absolute after:left-0 after:bottom-[5px] after:w-0 after:h-[1px]
+                                        after:content after:bg-[#3757f7] after:transition-all font-heading-font
+                                        hover:after:w-[50%]">Project Single</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="relative inline-block group">
+                            <a href="#" class="relative text-[20px] lg:text-[17px] py-[35px]
+                             xl:py-[30px] px-[20px] xl:px-[6px]
+                                text-[#232f4b] block capitalize
+                                font-heading-font font-medium transition-all
+                                 hover:text-[#3757f7]">Pages</a>
+                            <ul
+                                class="absolute w-[240px]  left-0 top-[110%] p-[20px] z-[111]  bg-[#fff] shadow-[0px_2px_20px_0px_rgba(62,65,159,0.09);]  transition-all  opacity-0 invisible group-hover:opacity-100  group-hover:top-full group-hover:visible">
+                                <li>
+                                    <a href="about.html" class="text-[20px] lg:text-[17px] inline-block py-[5px] capitalize text-[#002642] group relative overflow-hidden font-medium transition-all 
+                                        after:absolute after:left-0 after:bottom-[5px] after:w-0 after:h-[1px]
+                                        after:content after:bg-[#3757f7] after:transition-all font-heading-font
+                                        hover:after:w-[50%]">About</a>
+                                </li>
+                                <li>
+                                    <a href="testimonial.html" class="text-[20px] lg:text-[17px] inline-block py-[5px] capitalize text-[#002642] group relative overflow-hidden font-medium transition-all 
+                                        after:absolute after:left-0 after:bottom-[5px] after:w-0 after:h-[1px]
+                                        after:content after:bg-[#3757f7] after:transition-all font-heading-font
+                                        hover:after:w-[50%]">Testimonial</a>
+                                </li>
+                                <li>
+                                    <a href="pricing.html" class="text-[20px] lg:text-[17px] inline-block py-[5px] capitalize text-[#002642] group relative overflow-hidden font-medium transition-all 
+                                        after:absolute after:left-0 after:bottom-[5px] after:w-0 after:h-[1px]
+                                        after:content after:bg-[#3757f7] after:transition-all font-heading-font
+                                        hover:after:w-[50%]">Pricing</a>
+                                </li>
+                                <li>
+                                    <a href="404.html" class="text-[20px] lg:text-[17px] inline-block py-[5px] capitalize text-[#002642] group relative overflow-hidden font-medium transition-all 
+                                        after:absolute after:left-0 after:bottom-[5px] after:w-0 after:h-[1px]
+                                        after:content after:bg-[#3757f7] after:transition-all font-heading-font
+                                        hover:after:w-[50%]">Error 404</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="relative inline-block group">
+                            <a href="#" class="relative text-[20px] lg:text-[17px] py-[35px]
+                             xl:py-[30px] px-[20px] xl:px-[6px]
+                                text-[#232f4b] block capitalize
+                                font-heading-font font-medium transition-all
+                                 hover:text-[#3757f7]">Blog</a>
+                            <ul class="absolute w-[240px] left-0 top-[110%] p-[20px] z-[111] bg-[#fff]
+                                shadow-[0px_2px_20px_0px_rgba(62,65,159,0.09);] transition-all opacity-0 invisible
+                                group-hover:opacity-100 group-hover:top-full group-hover:visible">
+                                <li>
+                                    <a href="blog.html" class="text-[20px] lg:text-[17px] inline-block py-[5px] capitalize text-[#002642] group relative overflow-hidden font-medium transition-all 
+                                        after:absolute after:left-0 after:bottom-[5px] after:w-0 after:h-[1px]
+                                        after:content after:bg-[#3757f7] after:transition-all font-heading-font
+                                        hover:after:w-[50%]">Blog</a>
+                                </li>
 
-               <!-- single item -->
-               <div class="ca-sm-single-item-4 ca-sm-single-item-1 mb-20">
-                  <div class="icon">
-                     <span>
-                        <i class="fa-solid fa-envelope"></i>
-                     </span>
-                  </div>
-                  <div class="ca-sm-single-item-4-content">
-                     <p><a href="mailto:infocargon@gmail.com">infocargon@gmail.com</a></p>
-                  </div>
-               </div>
-            </div>
-            <div class="ca-offcanvas-social mb-40">
-               <h3 class="ca-offcanvas-sm-title">Follow Us</h3>
-               <div class="ca-footer-social ca-footer-social-3">
-                  <ul>
-                     <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
-                     <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
-                     <li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
-                     <li><a href="#"><i class="fa-brands fa-x-twitter"></i></a></li>
-                  </ul>
-               </div>
-            </div>
-         </div>
-      </div>
-      <div class="ca-offcanvas-overlay"></div>
-      <!-- offcanvas end -->
-      <!-- main -->
-      <main>
-         <!-- breadcrumb area start -->
-         <section class="ca-breadcrumb-area cream-bg-3 p-relative z-index-1 fix">
-            <div class="ca-breadcrumb-shape p-absolute bre-sh-1">
-               <img src="assets/img/shape/breadcrumn-shape.png" alt="">
-            </div>
-            <div class="ca-breadcrumb-shape p-absolute bre-sh-2">
-               <img src="assets/img/shape/ca-line-shape.png" alt="">
-            </div>
-            <div class="container">
-               <div class="ca-breadcrumb-content text-center">
-                  <h2 class="ca-breadcrumb-title fnw-600">Handling Project Cargo: Expert Tips and Strategies</h2>
-                  <div class="it-breadcum-link">
-                     <a href="index.html">Home</a>
-                     <span><i class="fa-solid fa-angle-right"></i></span>
-                     <a href="blog.html">Our Blog</a>
-                     <span><i class="fa-solid fa-angle-right"></i></span>
-                     <a class="active" href="#">Handling Project Cargo: Expert Tips and Strategies</a>
-                  </div>
-               </div>
-            </div>
-         </section>
-         <!-- breadcrumb area end -->
-         <!-- service left -->
-         <div class="ca-service-lft-area pt-100 pb-70">
-            <div class="container">
-               <div class="row">
-                  <div class="col-lg-8 mb-30 mx-auto">
-                     <div class="ca-project-content-area">
-                        <div class="ca-pro-thumb-content ca-service-left-content">
-                           <h2 class="ca-project-thumb-title theme-black-3 fnw-600 ca-text-cap">Consolidation & Deconsolidation <br> Services Reverse Logistics </h2>
-                           <p class="pt-16 pb-32">Welcome to the Cargon Blog, your go-to resource for the latest insights, trends, and innovations in the <br>world of transport and logistics. Our blog is designed to keep you informed about industry developments,  <br> provide expert advice, and share best practices for optimizing your supply chain</p>
-                           <div class="ca-servic-cat">
-                              <!-- single cat -->
-                              <div class="ca-servic-cat-item mb-30">
-                                 <div class="ca-servic-cat-item-img">
-                                    <img src="assets/img/blog/ca-blog-cat1.1.png" alt="">
-                                 </div>
-                                 <div class="ca-servic-cat-item-content">
-                                    <h3 class="ca-blog-cat-ttitle"><a href="#">Rahul Tewatia</a></h3>
-                                 </div>
-                              </div>
-                              <!-- single cat -->
-                              <div class="ca-servic-cat-item mb-30">
-                                 <div class="ca-servic-cat-item-ic">
-                                    <span><img src="assets/img/icon/ca-ser-cat-date.svg" alt=""></span>
-                                 </div>
-                                 <div class="ca-servic-cat-item-content">
-                                    <h3 class="ca-blog-cat-ttitle"><a href="#">8/06/2024</a></h3>
-                                 </div>
-                              </div>
-                              <!-- single cat -->
-                              <div class="ca-servic-cat-item mb-30">
-                                 <div class="ca-servic-cat-item-ic">
-                                    <span><img src="assets/img/icon/ca-ser-cat-tag.svg" alt=""></span>
-                                 </div>
-                                 <div class="ca-servic-cat-item-content">
-                                    <h3 class="ca-blog-cat-ttitle"><a href="#">Transport & Logistics</a></h3>
-                                 </div>
-                              </div>
-                              <!-- single cat -->
-                              <div class="ca-servic-cat-item mb-30">
-                                 <div class="ca-servic-cat-item-ic">
-                                    <span><img src="assets/img/icon/ca-ser-cat-chat.svg" alt=""></span>
-                                 </div>
-                                 <div class="ca-servic-cat-item-content">
-                                    <h3 class="ca-blog-cat-ttitle"><a href="#">2 Comments</a></h3>
-                                 </div>
-                              </div>
-                           </div>
-                           <div class="ca-servic-thumb br-7">
-                              <img class="w-100" src="assets/img/blog/ca-blog-thumb-1.1.png" alt="">
-                           </div>
-                           <h3 class="ca-project-thumb-title-2 theme-black-3 fnw-600 pt-32 ca-text-cap">Your Source for Logistics Information</h3>
-                           <p class="pt-20">Whether you're looking to stay updated on the latest technologies transforming logistics, understand the <br> impact of global trade policies, or learn tips for improving efficiency and reducing costs, you'll find valuable <br>information here. Our team of industry experts and thought leaders regularly contribute articles</p>
-                           <p class="pt-20">Dive into our blog to discover how we navigate the complexities of logistics, stay ahead of industry trends, <br>and continue to deliver exceptional service to our clients. Join us on this journey & empower your business</p>
-                           <h3 class="ca-project-thumb-title-2 theme-black-3 fnw-600 pt-32 ca-text-cap">Transport and Logistics Insights</h3>
-                           <p class="pt-20">Our blog is a valuable resource for industry professionals looking to stay ahead of the curve and navigate <br> the complexities of global logistics. We cover a wide array of topics, including the latest advancements in <br> logistics technology, best practices for supply chain management, and strategies for overcoming.</p>
-                           <p class="pt-20">Whether you're interested in learning about innovative shipping solutions, exploring the impact of new  <br>trade regulations, or finding tips to enhance your logistics operations, our blog has something for you.</p>
-                           <h3 class="ca-project-thumb-title-2 theme-black-3 fnw-600 pt-32 ca-text-cap">Behind the Scenes in Transport</h3>
-                           <p class="pt-20">Our articles are written by seasoned professionals who bring their firsthand experience and expertise to  <br> each post, ensuring you get practical, actionable insights. Stay informed, stay competitive, and stay <br> connected with the Cargon Blog, your ultimate guide to mastering the art of logistics.</p>
-                           <div class="ca-about-item3 cream-bg-3 p-relative">
-                              <p>Here, we delve into the latest trends, explore emerging technologies, & provide practical solutions <br> to the challenges faced by businesses in today's fast-paced logistics environment. Our blog  <br>covers a broad spectrum of topics, from the intricacies of freight forwarding.</p>
-                           </div>
-                           <div class="ca-ab-item-check ca-ab-item-check-2 ca-ab-item-check-3 caborder-top">
-                              <!-- single-item -->
-                              <div class="ca-ab-sngle-item">
-                                 <div class="ca-ab-sngle-item-ic">
-                                    <span><i class="fa-solid fa-check"></i></span>
-                                 </div>
-                                 <div class="ca-ab-sngle-item-content">
-                                    <h4 class="ca-item-ch-title">Secure Warehousing</h4>
-                                 </div>
-                              </div>
-                              <!-- single-item -->
-                              <div class="ca-ab-sngle-item">
-                                 <div class="ca-ab-sngle-item-ic">
-                                    <span><i class="fa-solid fa-check"></i></span>
-                                 </div>
-                                 <div class="ca-ab-sngle-item-content">
-                                    <h4 class="ca-item-ch-title">Customs Brokerage</h4>
-                                 </div>
-                              </div>
-                              <!-- single-item -->
-                              <div class="ca-ab-sngle-item">
-                                 <div class="ca-ab-sngle-item-ic">
-                                    <span><i class="fa-solid fa-check"></i></span>
-                                 </div>
-                                 <div class="ca-ab-sngle-item-content">
-                                    <h4 class="ca-item-ch-title">E-commerce Fulfillment</h4>
-                                 </div>
-                              </div>
-                              <!-- single-item -->
-                              <div class="ca-ab-sngle-item">
-                                 <div class="ca-ab-sngle-item-ic">
-                                    <span><i class="fa-solid fa-check"></i></span>
-                                 </div>
-                                 <div class="ca-ab-sngle-item-content">
-                                    <h4 class="ca-item-ch-title">Heavy Lift and Project Cargo</h4>
-                                 </div>
-                              </div>
-                              <!-- single-item -->
-                              <div class="ca-ab-sngle-item">
-                                 <div class="ca-ab-sngle-item-ic">
-                                    <span><i class="fa-solid fa-check"></i></span>
-                                 </div>
-                                 <div class="ca-ab-sngle-item-content">
-                                    <h4 class="ca-item-ch-title">Rapid Express Delivery</h4>
-                                 </div>
-                              </div>
-                              <!-- single-item -->
-                              <div class="ca-ab-sngle-item">
-                                 <div class="ca-ab-sngle-item-ic">
-                                    <span><i class="fa-solid fa-check"></i></span>
-                                 </div>
-                                 <div class="ca-ab-sngle-item-content">
-                                    <h4 class="ca-item-ch-title">Inventory Optimization</h4>
-                                 </div>
-                              </div>
-                           </div>
-                           <h3 class="ca-project-thumb-title-2 theme-black-3 fnw-600">Domestic Freight Transport</h3>
-                           <p class="pt-20 pb-32">We aim to equip our readers with the information they need to make informed decisions, optimize their <br> logistics operations, and stay competitive in a global marketplace. Each post is crafted by our team of <br>logistics experts who share their insights and experiences, offering you valuable perspectives on how.</p>
-                           <div class="ca-blog-tags-section">
-                              <div class="ca-blog-tag-section">
-                                 <div class="ca-blg-tag-taile">
-                                    <h4 class="ca-title fnw-600 theme-black-3">Our Tags:</h4>
-                                 </div>
-                                 <div class="ca-blg-tag-list">
-                                    <ul>
-                                       <li><a href="#">Transport</a></li>
-                                       <li><a href="#">Creative</a></li>
-                                       <li><a href="#">Development</a></li>
+                                <li>
+                                    <a href="blog-left-sidebar.html" class="text-[20px] lg:text-[17px] inline-block py-[5px] capitalize text-[#002642] group relative overflow-hidden font-medium transition-all 
+                                        after:absolute after:left-0 after:bottom-[5px] after:w-0 after:h-[1px]
+                                        after:content after:bg-[#3757f7] after:transition-all font-heading-font
+                                        hover:after:w-[50%]">Blog With Left Sidebar</a>
+                                </li>
+
+                                <li class="relative group/group-2">
+                                    <a href="#" class="text-[20px] lg:text-[17px] inline-block py-[5px] capitalize text-[#002642] group relative overflow-hidden font-medium transition-all 
+                                        after:absolute after:left-0 after:bottom-[5px] after:w-0 after:h-[1px]
+                                        after:content after:bg-[#3757f7] after:transition-all font-heading-font
+                                        hover:after:w-[50%]">Blog details</a>
+                                    <ul
+                                        class="absolute w-[240px]  left-[120%] top-0 p-[20px] z-[111]  bg-[#fff] shadow-[0px_2px_20px_0px_rgba(62,65,159,0.09);] opacity-0 invisible  transition-all group-hover/group-2:opacity-100  group-hover/group-2:left-[110%] group-hover/group-2:visible">
+                                        <li>
+                                            <a href="blog-single.html" class="text-[20px] lg:text-[17px] inline-block py-[5px] capitalize text-[#002642] group relative overflow-hidden font-medium transition-all 
+                                        after:absolute after:left-0 after:bottom-[5px] after:w-0 after:h-[1px]
+                                        after:content after:bg-[#3757f7] after:transition-all font-heading-font
+                                        hover:after:w-[50%]">Blog Details</a>
+                                        </li>
+
+                                        <li>
+                                            <a href="blog-single-left-sidebar.html" class="text-[20px] lg:text-[17px] inline-block py-[5px] capitalize text-[#002642] group relative overflow-hidden font-medium transition-all 
+                                        after:absolute after:left-0 after:bottom-[5px] after:w-0 after:h-[1px]
+                                        after:content after:bg-[#3757f7] after:transition-all font-heading-font
+                                        hover:after:w-[50%]">Blog Details Left Sidebar</a>
+                                        </li>
                                     </ul>
-                                 </div>
-                              </div>
-                              <div class="ca-blog-share">
-                                 <h4 class="ca-title fnw-600 theme-black-3">Share:</h4>
-                                 <div class="ca-footer-social ca-tag-social-3">
-                                    <ul>
-                                       <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
-                                       <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
-                                       <li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
-                                       <li><a href="#"><i class="fa-brands fa-x-twitter"></i></a></li>
-                                    </ul>
-                                 </div>
-                              </div>
-                           </div>
-                           <!-- blog post comment form -->
-                           <div class="ca-blg-comt-form pt-32">
-                              <h4 class="ca-title fnw-600 theme-black-3 pb-32">Blog Comments (2)</h4>
-                              <!-- single post comment -->
-                              <div class="ca-blg-single-comment cream-bg-3 mb-30">
-                                 <div class="ca-blg-cmt">
-                                    <div class="ca-blg-auth">
-                                       <div class="ca-blg-auth-img">
-                                          <img src="assets/img/blog/ca-blg-comment1.1.png" alt="">
-                                       </div>
-                                       <div class="ca-blg-auth-title">
-                                          <h4 class="ca-title fnw-600 theme-black-3">Matthew Larson</h4>
-                                          <span>8/01/2023</span>
-                                       </div>
-                                    </div>
-                                    <a href="" class="ca-rep-cmt">
-                                       <h4 class="ca-blg-rep-title"><span><img src="assets/img/icon/ca-blg-reply.svg" alt=""></span>Reply</h4>
-                                    </a>
-                                 </div>
-                                 <p class="pt-16">We value your feedback and encourage you to share your thoughts and experiences <br> with us. Whether you have a question about our services, a suggestion for <br>improvement, or a success story you'd like to share, we're here to listen.</p>
-                              </div>
-                              <!-- single post comment -->
-                              <div class="ca-blg-single-comment ca-rep-cmt cream-bg-3 mb-30">
-                                 <div class="ca-blg-cmt">
-                                    <div class="ca-blg-auth">
-                                       <div class="ca-blg-auth-img">
-                                          <img src="assets/img/blog/ca-author-1.3.png" alt="">
-                                       </div>
-                                       <div class="ca-blg-auth-title">
-                                          <h4 class="ca-title fnw-600 theme-black-3">Sergio Daugherty</h4>
-                                          <span>8/01/2023</span>
-                                       </div>
-                                    </div>
-                                    <a href="" class="ca-rep-cmt">
-                                       <h4 class="ca-blg-rep-title"><span><img src="assets/img/icon/ca-blg-reply.svg" alt=""></span>Reply</h4>
-                                    </a>
-                                 </div>
-                                 <p class="pt-16">Your insights help us continuously improve and provide the best possible service to<br> our clients. Join the conversation and connect with other industry professionals, <br>exchange ideas, and gain valuable insights into the world of transport and logistics</p>
-                              </div>
-                              <div class="ca-blog-rep-form cream-bg-3">
-                                 <h4 class="ca-title fnw-600 theme-black-3 pb-16">Leave a Reply</h4>
-                                 <p class="pb-32">Provide clear contact information, including phone number, email, and address.</p>
-                                 <div class="ca-cmt-from">
-                                    <form action="#">
-                                       <div class="row">
-                                          <div class="col-lg-6 mb-20">
-                                             <input type="text" placeholder="First Name">
-                                          </div>
-                                          <div class="col-lg-6 mb-20">
-                                             <input type="text" placeholder="Last Name">
-                                          </div>
-                                          <div class="col-lg-6 mb-20">
-                                             <input type="email" placeholder="Email">
-                                          </div>
-                                          <div class="col-lg-6 mb-20">
-                                             <input type="tel" placeholder="Phone">
-                                          </div>
-                                          <div class="col-lg-12 mb-20">
-                                             <input type="text" placeholder="subject">
-                                          </div>
-                                          <div class="col-lg-12 mb-20">
-                                             <textarea name="message" id="message" placeholder="Message"></textarea>
-                                          </div>
-                                       </div>
-                                       <div class="ca-blg-sen-btn">
-                                          <button type="submit" class="ca-btn-primary-3 theme-bg-3 text-white br-50">Send Now <span><i class="fa-solid fa-angle-right"></i></span></button>
-                                       </div>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="relative inline-block">
+                            <a href="contact.html" class="relative text-[20px] lg:text-[17px] py-[35px]
+                             xl:py-[30px] px-[20px] xl:px-[6px]
+                                text-[#232f4b] block capitalize
+                                font-heading-font font-medium transition-all
+                                 hover:text-[#3757f7]
+                            ">Contact</a>
+                        </li>
+                    </ul>
+
+                    <div class="flex items-center">
+                        <a class="theme-btn py-[10px] px-[25px] md:hidden" href="contact.html">Free Consulting</a>
+                        <div class="relative header-search-form-wrapper">
+                            <div class="cart-search-contact ml-[20px] text-center text-white
+                                 border-left cursor-pointer border-[rgba(255,255,255,.07)]">
+                                <div class="search-toggle-btn bg-[#dadffb] text-[#232f4b]
+                                 w-[55px] h-[50px] rounded-[5px] leading-[60px]">
+                                    <i class="fi flaticon-magnifiying-glass text-[22px]"></i>
+                                </div>
+                            </div>
+                            <div class="header-search-form absolute right-0 top-[210%] w-[263px] bg-white z-20 p-[15px]
+                                transform text-center transition-all opacity-0 invisible
+                                 shadow-[0px_2px_20px_0px_rgba(62,65,159,0.09);]">
+                                <div>
+                                    <form class="relative">
+                                        <input class="bg-white w-full h-[40px] pl-[10px] pr-[40px] focus-visible:outline-0
+                                            border border-[rgba(64,59,59,0.07)]" type="text"
+                                            placeholder="search here..">
+                                        <button
+                                            class="absolute right-0 top-0 w-[40px] h-[40px] bg-[#272c3f] text-white border-0"><i
+                                                class="fi flaticon-magnifiying-glass"></i></button>
                                     </form>
-                                 </div>
-                              </div>
-                           </div>
+                                </div>
+                            </div>
                         </div>
-                     </div>
-                  </div>
-               </div>
+                    </div>
+                </div>
             </div>
-         </div>
-         <div class="ca-more-section pb-70">
-            <div class="container">
-               <h2 class="ca-more-title theme-black-3 fnw-600 text-center mb-60">View More Blogs</h2>
-               <div class="row">
-                  <!-- single-blog-item -->
-                  <div class="col-lg-4 col-md-6 mb-30">
-                     <div class="ca-team-box ca-blg-box-3 cream-bg-3 br-7 fix p-relative z-index-1">
-                        <div class="ca-team-img">
-                           <img class="w-100" src="assets/img/blog/ca-blog-1.2.png" alt="">
+        </section>
+
+        <!-- start breadcumb -->
+        <div class="bg-[url(../images/page-title.jpg)] bg-no-repeat bg-center
+         min-h-[400px] relative flex justify-center flex-col z-[1]
+          before:absolute before:left-0 before:top-0 before:w-full 
+          before:h-full before:bg-[#232f4b] before:z-[-1] before:opacity-[0.7] sm:min-h-[250px]">
+            <div class="wraper">
+                <div class="grid grid-cols-12">
+                    <div class="col-span-12">
+                        <div class="text-center">
+                            <h2 class="text-[60px] text-white leading-[60px] mt-[-10px] mb-[20px]
+                            sm:text-[30px] sm:leading-[35px] sm:mb-[10px]">Blog
+                            </h2>
+                            <ul>
+                                <li class="inline-block px-[5px] text-[20px] relative font-heading-font sm:text-[18px]
+                                after:content-['/'] after:relative after:left-[7px] after:text-white">
+                                    <a href="index.html"
+                                        class="text-white text-[20px] transition-all hover:text-[#3757f7]">Home</a>
+                                </li>
+                                <li
+                                    class="inline-block px-[5px] text-[20px] relative font-heading-font sm:text-[18px] ">
+                                    <span class="text-[#cbd4fd]">Blog Single</span>
+                                </li>
+                            </ul>
                         </div>
-                        <div class="ca-blog-date-3 ca-blg-date-3">
-                           <a href="#" class="blg-date-3">March 21, 2024</a>
-                        </div>
-                        <div class="ca-blog-box-content ca-blog-box-content-3">
-                           <div class="ca-b-meta">
-                              <!-- blog meta box -->
-                              <a href="#" class="ca-blog-meta ca-blog-meta-3">
-                                 <div class="ca-meta-icon">
-                                    <span><img src="assets/img/icon/user-1.1.svg" alt=""></span>
-                                 </div>
-                                 <div class="ca-meta-title">
-                                    <span>Henry Nicolls</span>
-                                 </div>
-                              </a>
-                              <!-- blog meta box -->
-                              <a href="#" class="ca-blog-meta ca-blog-meta-3">
-                                 <div class="ca-meta-icon">
-                                    <span><img src="assets/img/icon/tag-1.1.svg" alt=""></span>
-                                 </div>
-                                 <div class="ca-meta-title">
-                                    <span>Transport &amp; Logistics</span>
-                                 </div>
-                              </a>
-                           </div>
-                           <h4 class="ca-blog-title ca-blog-title-3 fnw-600"><a href="#">Optimizing Last-Mile Delivery: Strategies for Success</a></h4>
-                           <p class="pt-16 pb-18">Delve into the challenges of last-mile delivery <br>and explore strategies to overcome them.</p>
-                           <div class="blog-3-rearmore">
-                              <a href="blog-single.html" class="read-more3">Read More <span><i class="fa-solid fa-angle-right"></i></span></a>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-                  <!-- single-blog-item -->
-                  <div class="col-lg-4 col-md-6 mb-30">
-                     <div class="ca-team-box ca-blg-box-3 cream-bg-3 br-7 fix p-relative z-index-1">
-                        <div class="ca-team-img">
-                           <img class="w-100" src="assets/img/blog/ca-blog-1.3.png" alt="">
-                        </div>
-                        <div class="ca-blog-date-3 ca-blg-date-3">
-                           <a href="#" class="blg-date-3">March 20, 2024</a>
-                        </div>
-                        <div class="ca-blog-box-content ca-blog-box-content-3">
-                           <div class="ca-b-meta">
-                              <!-- blog meta box -->
-                              <a href="#" class="ca-blog-meta ca-blog-meta-3">
-                                 <div class="ca-meta-icon">
-                                    <span><img src="assets/img/icon/user-1.1.svg" alt=""></span>
-                                 </div>
-                                 <div class="ca-meta-title">
-                                    <span>Henry Nicolls</span>
-                                 </div>
-                              </a>
-                              <!-- blog meta box -->
-                              <a href="#" class="ca-blog-meta ca-blog-meta-3">
-                                 <div class="ca-meta-icon">
-                                    <span><img src="assets/img/icon/tag-1.1.svg" alt=""></span>
-                                 </div>
-                                 <div class="ca-meta-title">
-                                    <span>Transport &amp; Logistics</span>
-                                 </div>
-                              </a>
-                           </div>
-                           <h4 class="ca-blog-title ca-blog-title-3 fnw-600"><a href="#">Handling Project Cargo: Expert<br> Tips and Strategies</a></h4>
-                           <p class="pt-16 pb-18">Get expert tips on managing project cargo <br> logistics. From planning and coordination.</p>
-                           <div class="blog-3-rearmore">
-                              <a href="blog-single.html" class="read-more3">Read More <span><i class="fa-solid fa-angle-right"></i></span></a>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-                  <!-- single-blog-item -->
-                  <div class="col-lg-4 col-md-6 mb-30">
-                     <div class="ca-team-box ca-blg-box-3 cream-bg-3 br-7 fix p-relative z-index-1">
-                        <div class="ca-team-img">
-                           <img class="w-100" src="assets/img/blog/ca-blog-1.1.png" alt="">
-                        </div>
-                        <div class="ca-blog-date-3 ca-blg-date-3">
-                           <a href="#" class="blg-date-3">March 18, 2024</a>
-                        </div>
-                        <div class="ca-blog-box-content ca-blog-box-content-3">
-                           <div class="ca-b-meta">
-                              <!-- blog meta box -->
-                              <a href="#" class="ca-blog-meta ca-blog-meta-3">
-                                 <div class="ca-meta-icon">
-                                    <span><img src="assets/img/icon/user-1.1.svg" alt=""></span>
-                                 </div>
-                                 <div class="ca-meta-title">
-                                    <span>Henry Nicolls</span>
-                                 </div>
-                              </a>
-                              <!-- blog meta box -->
-                              <a href="#" class="ca-blog-meta ca-blog-meta-3">
-                                 <div class="ca-meta-icon">
-                                    <span><img src="assets/img/icon/tag-1.1.svg" alt=""></span>
-                                 </div>
-                                 <div class="ca-meta-title">
-                                    <span>Transport &amp; Logistics</span>
-                                 </div>
-                              </a>
-                           </div>
-                           <h4 class="ca-blog-title ca-blog-title-3 fnw-600"><a href="#">The Importance of Reliable Freight Forwarding Services</a></h4>
-                           <p class="pt-16 pb-18">Learn practical strategies for optimizing your<br> supply chain operations, improve delivery.</p>
-                           <div class="blog-3-rearmore">
-                              <a href="blog-single.html" class="read-more3">Read More <span><i class="fa-solid fa-angle-right"></i></span></a>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-               </div>
+                    </div>
+                </div>
             </div>
-         </div>
-      </main>
-      <!-- footer section start-->
-      <footer class="theme-bg-3 pt-30 p-relative z-index-1">
-         <div class="ca-ft-shape p-absolute ft-shape-2"><img src="assets/img/shape/ca-footer-shape3.1.png" alt=""></div>
-         <div class="ca-cta-area p-relative z-index-1">
-            <div class="container">
-               <div class="ca-cta-shape3 p-absolute d-none d-lg-block">
-                  <img src="assets/img/shape/cta-shape-3.1.png" alt="">
-               </div>
-               <div class="row align-items-center">
-                  <div class="col-lg-6 mb-30">
-                     <div class="ca-cta-content">
-                        <h2 class="ca-section-title cta-title-1 text-white fnw-700">Join Us Today And let Us Help You To Grow Your Business.</h2>
-                     </div>
-                  </div>
-                  <div class="col-lg-6 mb-30">
-                     <div class="ca-btn-cta-3 text-end">
-                        <a href="contact.html" class="ca-btn-primary-3 w-bg br-50">Get Started <span><i class="fa-solid fa-angle-right"></i></span></a>
-                     </div>
-                  </div>
-               </div>
-               <div class="b-bottom pt-48"></div>
+        </div>
+
+        <!--start blog-area  -->
+        <section class="py-[120px] md:py-[90px] sm:py-[80px]">
+            <div class="wraper">
+                <div class="grid grid-cols-12 gap-3">
+                    <div class="col-span-8 md:col-span-12">
+                        <div class="mb-[70px]">
+                            <img class="w-full" src="assets/images/blog/img-4.jpg" alt>
+                            <div class="overflow-hidden my-[35px]">
+                                <ul>
+                                    <li
+                                        class="text-[14px] font-medium uppercase float-left col:float-none col:block col:ml-[0px] col:mb-[5px] text-[#525252]">
+                                        <i
+                                            class="relative top-0 mr-[3px] text-[15px] text-[#525252]  fi flaticon-user"></i>
+                                        By <a class="text-[#525252] transition-all hover:text-[#3757f7]" href="#">Jenny
+                                            Watson</a> </li>
+                                    <li
+                                        class="text-[14px] font-medium uppercase float-left col:float-none col:block col:ml-[0px] col:mb-[5px] text-[#525252] ml-[20px] pl-[20px] relative before:absolute before:left-0 before:top-[50%] before:w-[7px] before:h-[7px] before:rounded-[50%] before:content-[''] before:translate before:-translate-y-1/2 before:bg-[#3757f7] z-10 before:-z-10">
+                                        <i
+                                            class="relative top-0 mr-[3px] text-[15px] text-[#525252]  fi flaticon-comment-white-oval-bubble"></i>
+                                        Comments 35 </li>
+                                    <li
+                                        class="text-[14px] font-medium uppercase float-left col:float-none col:block col:ml-[0px] col:mb-[5px] text-[#525252] ml-[20px] pl-[20px] relative before:absolute before:left-0 before:top-[50%] before:w-[7px] before:h-[7px] before:rounded-[50%] before:content-[''] before:translate before:-translate-y-1/2 before:bg-[#3757f7] z-10 before:-z-10">
+                                        <i
+                                            class="relative top-0 mr-[3px] text-[15px] text-[#525252]  fi flaticon-calendar-1"></i>
+                                        24 Jun 2023</li>
+                                </ul>
+                            </div>
+                            <h3
+                                class="text-[34px] md:text-[25px] sm:text-[22px] text-[#232f4b] font-bold font-base-font leading-[40px] mb-[20px]">
+                                Underestimating the challenge of raising Series A funding</h3>
+                            <p class="text-[#525252] leading-[24px] text-[16px] mb-[20px]">There are many variations of
+                                passages of Lorem Ipsum available, but the majority have suffered alteration in some
+                                form, by injected humour, or randomised words which don't look even slightly believable.
+                                If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't
+                                anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on
+                                the Internet tend to repeat predefined chunks as necessary, making this the first true
+                                generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a
+                                handful.</p>
+                            <blockquote
+                                class="relative bg-[#f4f8fc] before:bg-[#fff] text-[#525252] text-[19px]
+                                p-[65px] mt-[60px] mb-[40px] underline
+                                    text-center font-semibold leading-[35px] sm:px-[25px] sm:py-[55px]
+                                before:font-['Flaticon'] before:content-[''] before:text-[20px] before:absolute
+                                before:left-1/2 before:top-[-30px] before:translate before:-translate-x-1/2
+                                before:w-[60px] before:h-[60px] before:leading-[60px]
+                                 before:border-[2px] before:border-[#F3F3F3] before:text-[#3757f7] before:rounded-full">
+                                Combined with a handful of model sentence structures, generate Lorem Ipsum which looks
+                                reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected
+                                humour, or non-characteristic words etc.
+                            </blockquote>
+                            <p class="text-[#525252] leading-[24px] text-[16px] mb-[20px]">I must explain to you how all
+                                this mistaken idea of denouncing pleasure and praising pain was born and I will give you
+                                a complete account of the system, and expound the actual teachings of the great explorer
+                                of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids
+                                pleasure itself,</p>
+                            <div class="overflow-hidden mt-[40px] mx-[-7.5px]">
+                                <div class="w-[calc(50%-15px)] float-left mx-[7.5px] mb-[15px]">
+                                    <img class="w-full" src="assets/images/blog/img-3.jpg" alt="">
+                                </div>
+                                <div class="w-[calc(50%-15px)] float-left mx-[7.5px] mb-[15px]">
+                                    <img class="w-full" src="assets/images//blog/img-2.jpg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="border-b border-[#3e3b3b] mt-[75px] pb-[30px] text-white sm:mb-[40px]">
+                            <div class="flex items-center">
+                                <span
+                                    class="font-base-font text-[#525252] font-semibold inline-block pr-[15px] uppercase">Share:
+                                </span>
+                                <ul class="inline-block">
+                                    <li class="float-left ml-[10px] sm:m-[2px] sm:ml-0"><a href="#"
+                                            class="inline-block text-[13px] px-[18px] py-[5px] text-[#525252] bg-[#ecf4fb] rounded-[5px] font-semibold transition-all hover:text-[#3757f7]">Planning</a>
+                                    </li>
+                                    <li class="float-left ml-[10px] sm:m-[2px] sm:ml-0"><a href="#" class="inline-block text-[13px] px-[18px] py-[5px] text-[#525252]
+                                            bg-[#ecf4fb] rounded-[5px] font-semibold transition-all
+                                            hover:text-[#3757f7]">Business</a>
+                                    </li>
+                                    <li class="float-left ml-[10px] sm:m-[2px] sm:ml-0"><a href="#"
+                                            class="inline-block text-[13px] px-[18px] py-[5px] text-[#525252] bg-[#ecf4fb] rounded-[5px] font-semibold transition-all hover:text-[#3757f7]">
+                                            Consulting</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!-- end tag-share -->
+                        <div class="mt-[30px] pb-[30px] text-white sm:mb-[40px]">
+                            <div class="flex items-center">
+                                <span
+                                    class="font-base-font text-[#525252] font-semibold inline-block pr-[15px] uppercase">Share:
+                                </span>
+                                <ul class="inline-block">
+                                    <li class="float-left ml-[10px] sm:m-[2px] sm:ml-0"><a href="#"
+                                            class="inline-block text-[15px] capitalize text-[#525252] underline font-semibold transition-all hover:text-[#3757f7]">facebook</a>
+                                    </li>
+                                    <li class="float-left ml-[10px] sm:m-[2px] sm:ml-0"><a href="#"
+                                            class="inline-block text-[15px] capitalize text-[#525252] underline font-semibold transition-all hover:text-[#3757f7]">twitter</a>
+                                    </li>
+                                    <li class="float-left ml-[10px] sm:m-[2px] sm:ml-0"><a href="#"
+                                            class="inline-block text-[15px] capitalize text-[#525252] underline font-semibold transition-all hover:text-[#3757f7]">linkedin</a>
+                                    </li>
+                                    <li class="float-left ml-[10px] sm:m-[2px] sm:ml-0"><a href="#"
+                                            class="inline-block text-[15px] capitalize text-[#525252] underline font-semibold transition-all hover:text-[#3757f7]">pinterest</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!-- end tag-share -->
+                        <div class="mt-[35px] mb-[60px]">
+                            <div class="float-left sm:float-none">
+                                <a href="#" target="_blank">
+                                    <img class="rounded-[50%]" src="assets/images/blog-details/author.jpg" alt></a>
+                            </div>
+                            <div class="block overflow-hidden pl-[25px] sm:pl-0 sm:mt-[15px]">
+                                <a href="#" class="font-base-font text-[24px] font-semibold inline-block mb-[10px]
+                                        text-[#232f4b]">Author:
+                                    Jenny Watson</a>
+                                <p class="text-[#525252] leading-[24px] text-[16px] mb-[20px]">Sed ut perspiciatis
+                                    unde omnis iste natus error sit voluptatem accusantium
+                                    doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore
+                                    veritatis.</p>
+                                <ul class="inline-block list-none">
+                                    <li class="float-left mr-[12px]"><a href="#"
+                                            class="block text-[13px] text-[#060530] transition-all hover:text-[#3757f7]"><i
+                                                class="ti-facebook"></i></a></li>
+                                    <li class="float-left mr-[12px]"><a href="#"
+                                            class="block text-[13px] text-[#060530] transition-all hover:text-[#3757f7]"><i
+                                                class="ti-twitter-alt"></i></a></li>
+                                    <li class="float-left mr-[12px]"><a href="#"
+                                            class="block text-[13px] text-[#060530] transition-all hover:text-[#3757f7]"><i
+                                                class="ti-linkedin"></i></a></li>
+                                    <li class="float-left mr-[12px]"><a href="#"
+                                            class="block text-[13px] text-[#060530] transition-all hover:text-[#3757f7]"><i
+                                                class="ti-instagram"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!-- end author-box -->
+                        <div class="overflow-hidden border border-[#d8e0f1] px-[25px]">
+                            <div
+                                class="py-[40px] pr-[15px] pl-[5px] sm:py-[25px] sm:px-[15px] w-[50%] float-left sm:w-full sm:float-none text-left group">
+                                <a href="blog.html" class="inline-block">
+                                    <span class="pl-[25px] sm:pl-0 tracking-[2px] text-[15px] relative transition-all group-hover:text-[#3757f7] text-[#525252] uppercase  font-semibold block
+                                     before:font-['themify'] before:content-['\e629'] before:transition-all  before:absolute before:left-0 before:top-0 sm:before:hidden group-hover:before:text-[#3757f7] 
+                                     ">Previous Post</span>
+                                    <span class="font-base-font text-[18px] font-medium text-[#232f4b] mt-[15px]
+                                            block">At
+                                        vero eos et accusamus et iusto odio dignissimos
+                                        ducimus qui blanditiis praesentium.</span>
+                                </a>
+                            </div>
+                            <div
+                                class="py-[40px] pl-[15px] pr-[5px] sm:py-[25px] sm:px-[15px] w-[50%] float-left sm:w-full sm:float-none text-right sm:text-left  group border-l border-[#d8e0f1] sm:border-l-transparent sm:border-t">
+
+                                <a href="blog-left-sidebar.html" class="inline-block transition-all group">
+                                    <span
+                                        class="pr-[25px] sm:pr-0 tracking-[2px] text-[15px] relative transition-all group-hover:text-[#3757f7] text-[#525252] uppercase   font-semibold block
+                                      before:font-['themify'] before:content-['\e628'] before:transition-all  before:absolute before:left-[95%] before:top-0 sm:before:hidden group-hover:before:text-[#3757f7] ">Next
+                                        Post</span>
+                                    <span class="font-base-font text-[18px] font-medium text-[#232f4b] mt-[15px]
+                                            block">Dignissimos
+                                        ducimus qui blanditiis praesentiu deleniti
+                                        atque corrupti quos dolores</span>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="mt-[70px]">
+                            <h3 class="text-[30px] md:text-[25px] sm:text-[20px] uppercase tracking-[3px]
+                                    text-[#232f4b] font-medium font-heading-font leading-[40px] mb-[20px]">
+                                5 Comments</h3>
+                            <ol class="pl-0">
+                                <li class="comment even thread-even depth-1" id="comment-1">
+                                    <div id="div-comment-1"
+                                        class="relative border-b border-[#3e3b3b] p-[30px] md:px-[25px] md:py-[35px]">
+                                        <div class="absolute left-[35px] sm:static">
+                                            <div class="comment-image">
+                                                <img class="rounded-full"
+                                                    src="assets/images/blog-details/comments-author/img-1.jpg" alt>
+                                            </div>
+                                        </div>
+                                        <div class="pl-[100px] sm:pl-0 sm:pt-[25px]">
+                                            <div class="comment-wrapper">
+                                                <h4 class="text-[18px] capitalize text-[#232f4b] font-bold
+                                                        font-base-font mb-[15px]">
+                                                    Robert Sonny <span
+                                                        class="text-[15px]  capitalize  text-[#525252] font-normal  pl-[5px] sm:pl-0">says
+                                                        Jul 21, 2023 at 10:00am</span></h4>
+                                                <p
+                                                    class="text-[15px]  capitalize  text-[#525252] font-normal mb-[20px]">
+                                                    I must explain to you how all this mistaken idea of
+                                                    denouncing pleasure and praising pain was born and I
+                                                    will give you a complete account of the system</p>
+                                                <a class="text-[14px]  font-base-font text-white font-semibold inline-block underline uppercase tracking-[1px] transition-all hover:text-[#3757f7]"
+                                                    href="#"><span>Reply</span></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <ul class="pl-[30px]">
+                                        <li class="comment">
+                                            <div
+                                                class="relative border-b border-[#3e3b3b] p-[30px] md:px-[25px] md:py-[35px]">
+                                                <div class="absolute left-[35px] sm:static">
+                                                    <div class="comment-image">
+                                                        <img class="rounded-full"
+                                                            src="assets/images/blog-details/comments-author/img-2.jpg"
+                                                            alt>
+                                                    </div>
+                                                </div>
+                                                <div class="pl-[100px] sm:pl-0 sm:pt-[25px]">
+                                                    <div class="comment-wrapper">
+                                                        <h4 class="text-[18px] capitalize text-[#232f4b] font-bold
+                                                                font-base-font mb-[15px]">
+                                                            John Abraham <span
+                                                                class="text-[15px]  capitalize  text-[#525252] font-normal  pl-[5px] sm:pl-0">says
+                                                                Jul 21, 2023 at 10:00am</span></h4>
+                                                        <p
+                                                            class="text-[15px]  capitalize  text-[#525252] font-normal mb-[20px]">
+                                                            I must explain to you how all this mistaken idea of
+                                                            denouncing pleasure and praising pain was born and I
+                                                            will give you a complete account of the system</p>
+                                                        <a class="text-[14px]  font-base-font text-white font-semibold inline-block underline uppercase tracking-[1px] transition-all hover:text-[#3757f7]"
+                                                            href="#"><span>Reply</span></a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <ul class="pl-[30px]">
+                                                <li class="comment">
+                                                    <div
+                                                        class="relative border-b border-[#3e3b3b] p-[30px] md:px-[25px] md:py-[35px]">
+                                                        <div class="absolute left-[35px] sm:static">
+                                                            <div class="comment-image">
+                                                                <img class="rounded-full"
+                                                                    src="assets/images/blog-details/comments-author/img-3.jpg"
+                                                                    alt>
+                                                            </div>
+                                                        </div>
+                                                        <div class="pl-[100px] sm:pl-0 sm:pt-[25px]">
+                                                            <div class="comment-wrapper">
+                                                                <h4 class="text-[18px] capitalize text-[#232f4b]
+                                                                        font-bold font-base-font mb-[15px]">
+                                                                    Robert Sonny<span
+                                                                        class="text-[15px]  capitalize  text-[#525252] font-normal  pl-[5px] sm:pl-0">says
+                                                                        Jul 21,
+                                                                        2023 at 10:00am</span></h4>
+                                                                <p
+                                                                    class="text-[15px]  capitalize  text-[#525252] font-normal mb-[20px]">
+                                                                    I must explain to you how all this mistaken idea
+                                                                    of
+                                                                    denouncing pleasure and praising pain was born
+                                                                    and I
+                                                                    will give you a complete account of the system
+                                                                </p>
+                                                                <a class="text-[14px]  font-base-font text-[#232f4b] font-semibold inline-block underline uppercase tracking-[1px] transition-all hover:text-[#3757f7]"
+                                                                    href="#"><span>Reply</span></a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+
+                                <li class="comment">
+                                    <div class="relative p-[30px] md:px-[25px] md:py-[35px]">
+                                        <div class="absolute left-[35px] sm:static">
+                                            <div class="comment-image">
+                                                <img class="rounded-full"
+                                                    src="assets/images/blog-details/comments-author/img-1.jpg" alt>
+                                            </div>
+                                        </div>
+                                        <div class="pl-[100px] sm:pl-0 sm:pt-[25px]">
+                                            <div class="comment-wrapper">
+                                                <h4 class="text-[18px] capitalize text-[#232f4b] font-bold
+                                                        font-base-font mb-[15px]">
+                                                    Robert Sonny <span
+                                                        class="text-[15px]  capitalize  text-[#525252] font-normal  pl-[5px] sm:pl-0">says
+                                                        Jul 21, 2023 at 10:00am</span></h4>
+                                                <p
+                                                    class="text-[15px]  capitalize  text-[#525252] font-normal mb-[20px]">
+                                                    I must explain to you how all this mistaken idea of
+                                                    denouncing pleasure and praising pain was born and I
+                                                    will give you a complete account of the system</p>
+                                                <a class="text-[14px]  font-base-font text-[#232f4b] font-semibold inline-block underline uppercase tracking-[1px] transition-all hover:text-[#3757f7]"
+                                                    href="#"><span>Reply</span></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ol>
+                            <!-- end comments-section -->
+                            <div class="mt-[40px]">
+                                <div class="mb-[30px]">
+                                    <h2 class="font-medium uppercase font-base-font tracking-[2px] text-[#232f4b]
+                                            text-[22px] leading-[130.5%] trant md:text-[25px]">
+                                        Leave a reply</h2>
+                                </div>
+                                <form method="post" class="contact-validation-active" id="contact-form-main">
+                                    <div class="grid grid-cols-12 gap-3">
+                                        <div class="col-span-6 md:col-span-6 sm:col-span-12 mb-3">
+                                            <input type="text"
+                                                class="form-control w-full rounded-[50px] h-[50px] border-[1px] border-[#a4adbe] pl-[15px] focus:outline-0 focus:shadow-none text-[#525252]"
+                                                placeholder="Your Name">
+                                        </div>
+                                        <div class="col-span-6 md:col-span-6 sm:col-span-12 mb-3">
+                                            <input type="email"
+                                                class="form-control w-full rounded-[50px] h-[50px] border-[1px] border-[#a4adbe] pl-[15px] focus:outline-0 focus:shadow-none text-[#525252]"
+                                                placeholder="Your Email">
+                                        </div>
+                                        <div class="col-span-12 mb-3">
+                                            <input type="url"
+                                                class="form-control w-full rounded-[50px] h-[50px] border-[1px] border-[#a4adbe] pl-[15px] focus:outline-0 focus:shadow-none text-[#525252]"
+                                                placeholder="Website">
+                                        </div>
+                                        <div class="col-span-12">
+                                            <textarea class="form-control w-full h-[220px] rounded-[30px] pl-[15px]
+                                                border-[1px] border-[#a4adbe] pt-[10px] focus:outline-0
+                                                focus:shadow-none text-[#525252]" name="note" id="note"
+                                                placeholder="Write Your Comments..."></textarea>
+                                        </div>
+                                    </div>
+                                    <div class="mt-[10px]">
+                                        <button type="submit" class="theme-btn pr-[35px] uppercase text-[15px] bg-[#3757f7] font-medium
+                                             tracking-[2px]">Post
+                                            Comment</button>
+                                    </div>
+                                </form>
+                            </div>
+
+                        </div> <!-- end comments-area -->
+                    </div>
+                    <div class="col-span-4 md:col-span-12">
+                        <div class="pl-[45px] lg:pl-[35px] md:pl-0 md:mt-[80px] sm:mt-[70px] md:max-w-[400px]">
+                            <div class="text-center bg-[#F3F3F3] p-[45px] relative z-30">
+                                <div class="mb-[25px]">
+                                    <img class="rounded-[50%] w-full max-w-[200px] mx-auto"
+                                        src="assets/images/blog/about-widget.jpg" alt>
+                                </div>
+                                <h4
+                                    class="text-[#232f4b] text-[25px] font-bold mb-[15px] font-heading-font-s2 capitalize">
+                                    Jenny
+                                    Watson</h4>
+                                <p class=" text-[#232f4b] text-[15px] mb-[18px]">Hi! beautiful people. I`m an authtor of
+                                    this blog. Read our post - stay with us</p>
+                                <ul class="flex justify-center">
+                                    <li class="mr-[10px]"><a href="#" class="block text-[#323232] w-[40px] h-[40px] leading-[40px] bg-[#fff]
+                                            rounded-[50%] transition-all hover:text-[#3757f7]"><i
+                                                class="ti-facebook"></i></a></li>
+                                    <li class="mr-[10px]"><a href="#"
+                                            class="block text-[#323232] w-[40px] h-[40px] leading-[40px] bg-[#fff] rounded-[50%] transition-all hover:text-[#3757f7]"><i
+                                                class="ti-twitter-alt"></i></a></li>
+                                    <li class="mr-[10px]"><a href="#"
+                                            class="block text-[#323232] w-[40px] h-[40px] leading-[40px] bg-[#fff] rounded-[50%] transition-all hover:text-[#3757f7]"><i
+                                                class="ti-linkedin"></i></a></li>
+                                    <li><a href="#"
+                                            class="block text-[#323232] w-[40px] h-[40px] leading-[40px] bg-[#fff] rounded-[50%] transition-all hover:text-[#3757f7]"><i
+                                                class="ti-pinterest"></i></a></li>
+                                </ul>
+                            </div>
+
+                            <div class="mt-[65px]">
+                                <form>
+                                    <div class="relative">
+                                        <input type="text" class="form-control w-full text-[16px] rounded-[5px] h-[70px] border-0
+                                            pl-[10px] focus:outline-0 focus:shadow-none bg-[rgba(55,87,247,0.05)]
+                                            text-[#212529]" placeholder="Search Post..">
+                                        <button type="submit" class="text-[20px] text-white  bg-[#3757f7] absolute right-[10px] top-[52%] h-[50px]
+                            leading-[50px] w-[50px] rounded-[6px] transform -translate-y-1/2">
+                                            <i class="ti-search"></i>
+                                        </button>
+                                    </div>
+                                </form>
+                            </div>
+
+                            <div class="mt-[65px]">
+                                <h3 class="text-[23px] relative text-[#232f4b] text-left capitalize pb-[20px] font-bold font-heading-font-s2
+                    before:content-[''] before:bg-[#3757f7] before:w-[55px] before:absolute before:h-[4px] before:left-0 before:bottom-0 before:rounded-[10px]
+                    after:content-[''] after:bg-[#f2f2f2] after:w-[80%] after:absolute after:h-[4px] after:left-[65px]
+                    after:bottom-0 after:rounded-[10px]
+                    ">Categories</h3>
+                                <ul>
+                                    <li class="text-[16px] mt-[15px] group transition-all pt-[6px] relative"><a
+                                            href="service-single.html" class="text-[#474f62] group hover:text-[#3757f7] text-[19px] font-bold
+                                            font-heading-font-s2 block transition-all">Blockchain Consulting <span
+                                                class="inline-block w-[30px]  h-[30px] leading-[30px]
+                                                bg-[#F3F3F3]  transition-all absolute right-0
+                                                text-center rounded-[50%] text-[18px]">5</span></a>
+                                    </li>
+                                    <li class="text-[16px] mt-[15px] group transition-all pt-[6px] relative"><a
+                                            href="service-single.html" class="text-[#474f62] group hover:text-[#3757f7] text-[19px] font-bold
+                                            font-heading-font-s2 block transition-all">Commodity Traders<span
+                                                class="inline-block w-[30px] h-[30px] leading-[30px] bg-[#F3F3F3]  transition-all absolute right-0 text-center rounded-[50%] text-[18px]">7</span></a>
+                                    </li>
+                                    <li class="text-[16px] mt-[15px] group transition-all pt-[6px] relative"><a
+                                            href="service-single.html" class="text-[#474f62] group hover:text-[#3757f7] text-[19px] font-bold
+                                            font-heading-font-s2 block transition-all">Financial Planning<span
+                                                class="inline-block w-[30px] h-[30px] leading-[30px] bg-[#F3F3F3]  transition-all absolute right-0 text-center rounded-[50%] text-[18px]">3</span></a>
+                                    </li>
+                                    <li class="text-[16px] mt-[15px] group transition-all pt-[6px] relative"><a
+                                            href="service-single.html" class="text-[#474f62] group hover:text-[#3757f7] text-[19px] font-bold
+                                            font-heading-font-s2 block transition-all">Investment Consulting<span
+                                                class="inline-block w-[30px] h-[30px] leading-[30px] bg-[#F3F3F3] absolute right-0 text-center rounded-[50%] text-[18px]">8</span></a>
+                                    </li>
+                                    <li class="text-[16px] mt-[15px] group transition-all pt-[6px] relative"><a
+                                            href="service-single.html" class="text-[#474f62] group hover:text-[#3757f7] text-[19px] font-bold
+                                            font-heading-font-s2 block transition-all">Online Banking Consulting<span
+                                                class="inline-block w-[30px] h-[30px] leading-[30px] bg-[#F3F3F3] transition-all absolute right-0 text-center rounded-[50%] text-[18px]">6</span></a>
+                                    </li>
+                                    <li class="text-[16px] mt-[15px] group transition-all pt-[6px] relative"><a
+                                            href="service-single.html" class="text-[#474f62] group hover:text-[#3757f7] text-[19px] font-bold
+                                            font-heading-font-s2 block transition-all">Personal Consulting Advice<span
+                                                class="inline-block w-[30px] h-[30px] leading-[30px] bg-[#F3F3F3]  transition-all absolute right-0 text-center rounded-[50%] text-[18px]">2</span></a>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div class="mt-[65px]">
+                                <h3 class="text-[23px] relative text-[#232f4b] text-left font-heading-font-s2 capitalize pb-[20px] font-bold
+                    before:content-[''] before:bg-[#3757f7] before:w-[55px] before:absolute before:h-[4px] before:left-0 before:bottom-0 before:rounded-[10px]
+                    after:content-[''] after:bg-[#f2f2f2] after:w-[80%] after:absolute after:h-[4px] after:left-[65px]
+                    after:bottom-0 after:rounded-[10px]
+                    ">Related Posts</h3>
+                                <div class="mt-[30px]">
+                                    <div class="overflow-hidden flex">
+                                        <div class="w-[90px]">
+                                            <img class="rounded-[6px] w-full" src="assets/images/recent-posts/img-1.jpg"
+                                                alt>
+                                        </div>
+                                        <div class="pl-[20px] w-[calc(100%-90px)]">
+                                            <h4><a href="blog-single.html"
+                                                    class="inline-block font-heading-font-s2 font-medium text-[#232f4b] text-[19px] transition-all hover:text-[#3757f7]">The
+                                                    Internet tend to repeat predefined chunks.</a>
+                                            </h4>
+                                            <span class="text-[#232f4b] text-[13px]">19 Jun 2023 </span>
+                                        </div>
+                                    </div>
+                                    <div class="overflow-hidden flex pt-[15px] mt-[15px]">
+                                        <div class="w-[90px]">
+                                            <img class="rounded-[6px] w-full" src="assets/images/recent-posts/img-2.jpg"
+                                                alt>
+                                        </div>
+                                        <div class="pl-[20px] w-[calc(100%-90px)]">
+                                            <h4><a href="blog-single.html" class="inline-block font-heading-font-s2 font-medium text-[#232f4b] text-[19px]
+                                                    transition-all hover:text-[#3757f7]">Have
+                                                    evolved over the years sometimes accident.</a></h4>
+                                            <span class="text-[#232f4b] text-[13px]">22 May 2023 </span>
+                                        </div>
+                                    </div>
+                                    <div class="overflow-hidden flex pt-[15px] mt-[15px]">
+                                        <div class="w-[90px]">
+                                            <img class="rounded-[6px] w-full" src="assets/images/recent-posts/img-3.jpg"
+                                                alt>
+                                        </div>
+                                        <div class="pl-[20px] w-[calc(100%-90px)]">
+                                            <h4><a href="blog-single.html" class="inline-block font-heading-font-s2 font-medium text-[#232f4b] text-[19px]
+                                                    transition-all hover:text-[#3757f7]">The
+                                                    standard chunk of used since the interested.</a></h4>
+                                            <span class="text-[#232f4b] text-[13px]">12 Apr 2023 </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="mt-[65px]">
+                                <h3 class="text-[23px] relative text-[#232f4b] text-left font-heading-font-s2 capitalize pb-[20px] font-bold
+                    before:content-[''] before:bg-[#3757f7] before:w-[55px] before:absolute before:h-[4px] before:left-0 before:bottom-0 before:rounded-[10px]
+                    after:content-[''] after:bg-[#f2f2f2] after:w-[80%] after:absolute after:h-[4px] after:left-[65px]
+                    after:bottom-0 after:rounded-[10px]
+                    ">Projects</h3>
+                                <ul class="flex flex-wrap mt-[30px]">
+                                    <li class="max-w-[33.33%] mb-[5px] px-[3px] flex-[0,0,33.33%]"><a
+                                            href="portfolio-single.html"><img class="w-full  rounded-[6px]"
+                                                src="assets/images/instragram/13.jpg" alt=""></a></li>
+                                    <li class="max-w-[33.33%] mb-[5px] px-[3px] flex-[0 0 33.33%]"><a
+                                            href="portfolio-single.html"><img class="w-full  rounded-[6px]"
+                                                src="assets/images/instragram/14.jpg" alt=""></a></li>
+                                    <li class="max-w-[33.33%] mb-[5px] px-[3px] flex-[0 0 33.33%]"><a
+                                            href="portfolio-single.html"><img class="w-full  rounded-[6px]"
+                                                src="assets/images/instragram/15.jpg" alt=""></a></li>
+                                    <li class="max-w-[33.33%] mb-[5px] px-[3px] flex-[0 0 33.33%]"><a
+                                            href="portfolio-single.html"><img class="w-full  rounded-[6px]"
+                                                src="assets/images/instragram/16.jpg" alt=""></a></li>
+                                    <li class="max-w-[33.33%] mb-[5px] px-[3px] flex-[0 0 33.33%]"><a
+                                            href="portfolio-single.html"><img class="w-full  rounded-[6px]"
+                                                src="assets/images/instragram/17.jpg" alt=""></a></li>
+                                    <li class="max-w-[33.33%] mb-[5px] px-[3px] flex-[0 0 33.33%]"><a
+                                            href="portfolio-single.html"><img class="w-full  rounded-[6px]"
+                                                src="assets/images/instragram/18.jpg" alt=""></a></li>
+                                </ul>
+                            </div>
+                            <div class="mt-[65px]">
+                                <div class="p-[30px_40px] bg-[#3757f7] lg:p-[20px]">
+                                    <h2 class="text-[36px] leading-[35px] font-heading-font-s2
+                                 text-left block mb-[20px] font-bold text-white">How We Can Help
+                                        You!</h2>
+                                    <p class="text-white text-[18px]">labore et dolore magna aliqua. Quis ipsum
+                                        suspendisse
+                                        ultrices gravida. Risus
+                                        commodo viverra maecenas accumsan lacus vel facilisis. </p>
+                                    <a href="contact.html"
+                                        class="inline-block py-[10px] px-[20px] pr-[90px] border-[1px] border-[#fff]
+                                     text-white
+                                     text-[18px] relative mt-[40px] before:font-['themify']
+                                    before:content-['\e628'] before:text-[18px] before:absolute before:right-[15px] before:top-[20%] -translate-y-1/2">Contact
+                                        Us</a>
+                                </div>
+                            </div>
+
+                            <div class="mt-[65px]">
+                                <h3 class="text-[23px] relative text-[#232f4b] text-left font-heading-font-s2 capitalize pb-[20px] font-bold
+                                before:content-[''] before:bg-[#3757f7] before:w-[55px]
+                                 before:absolute before:h-[4px] before:left-0 before:bottom-0 before:rounded-[10px]
+                                after:content-[''] after:bg-[#f2f2f2] after:w-[80%] after:absolute after:h-[4px] after:left-[65px]
+                                after:bottom-0 after:rounded-[10px]
+                                ">Tags</h3>
+                                <ul class="mt-[25px]">
+                                    <li class="float-left mr-[8px] mb-[12px]">
+                                        <a href="#" class="bg-[#ecf4fb] rounded-[5px] 
+                    py-[5px] px-[18px] text-[15px] 
+                    text-[#060530] transition-all hover:bg-[#3757f7]
+                     hover:text-white">Consulting</a>
+                                    </li>
+                                    <li class="float-left mr-[8px] mb-[12px]">
+                                        <a href="#" class="bg-[#ecf4fb] rounded-[5px] py-[5px]
+                     px-[18px] text-[15px] text-[#060530] 
+                     transition-all hover:bg-[#3757f7] hover:text-white">Planning</a>
+                                    </li>
+                                    <li class="float-left mr-[8px] mb-[12px]">
+                                        <a href="#" class="bg-[#ecf4fb] rounded-[5px] py-[5px] 
+                    px-[18px] text-[15px] text-[#060530] transition-all hover:bg-[#3757f7]
+                    hover:text-white">Marketing</a>
+                                    </li>
+                                    <li class="float-left mr-[8px] mb-[12px]">
+                                        <a href="#" class="bg-[#ecf4fb] rounded-[5px] py-[5px] 
+                    px-[18px] text-[15px] text-[#060530] transition-all
+                     hover:bg-[#3757f7] hover:text-white">Strategy</a>
+                                    </li>
+                                    <li class="float-left mr-[8px] mb-[12px]">
+                                        <a href="#" class="bg-[#ecf4fb] rounded-[5px] py-[5px] 
+                    px-[18px] text-[15px]  text-[#060530] transition-all
+                     hover:bg-[#3757f7] hover:text-white">Finance</a>
+                                    </li>
+                                    <li class="float-left mr-[8px] mb-[12px]">
+                                        <a href="#" class="bg-[#ecf4fb] rounded-[5px] py-[5px] px-[18px] 
+                    text-[15px] text-[#060530] transition-all
+                     hover:bg-[#3757f7] hover:text-white">Solution</a>
+                                    </li>
+                                    <li class="float-left mr-[8px] mb-[12px]">
+                                        <a href="#" class="bg-[#ecf4fb] rounded-[5px] py-[5px]
+                     px-[18px] text-[15px] text-[#060530]
+                      transition-all hover:bg-[#3757f7] hover:text-white">Corporate</a>
+                                    </li>
+                                    <li class="float-left mr-[8px] mb-[12px]"><a href="#" class="bg-[#ecf4fb] rounded-[5px] py-[5px]
+                     px-[18px] text-[15px] text-[#060530] 
+                     transition-all hover:bg-[#3757f7] hover:text-white">Idea</a>
+                                    </li>
+                                    <li class="float-left mr-[8px] mb-[12px]">
+                                        <a href="#" class="bg-[#ecf4fb] rounded-[5px] py-[5px] px-[18px] text-[15px] 
+                    text-[#060530] transition-all hover:bg-[#3757f7] hover:text-white">Market
+                                            Reserch</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-         </div>
-         <div class="ca-footer-area">
-            <div class="container">
-               <div class="ca-ft-area w-bg">
-                  <div class="row">
-                     <div class="col-xl-4 col-md-6 mb-30">
-                        <div class="ca-footer widget-1">
-                           <div class="ca-ft-logo">
-                              <a href="index-03.html"><img src="assets/img/logo/ca-logo3.1.png" alt=""></a>
-                           </div>
-                           <div class="ca-ft-content ca-ft-content-3 mb-24">
-                              <p class="pt-16">Our global reach, combined with local <br> expertise, ensures that your goods are <br>transported safely, on time.</p>
-                           </div>
-                           <div class="ca-footer-social ca-footer-social-3">
-                              <ul>
-                                 <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
-                                 <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
-                                 <li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
-                                 <li><a href="#"><i class="fa-brands fa-x-twitter"></i></a></li>
-                              </ul>
-                           </div>
+        </section>
+
+        <!-- start footer -->
+        <section class="bg-[#1e2845] relative">
+            <div class="py-[90px] md:pb-[60px]">
+                <div class="wraper">
+                    <div class="grid grid-cols-12 gap-4">
+                        <div class="col-span-3 lg:col-span-3 md:col-span-6 sm:col-span-6 col:col-span-12 md:mb-[30px]">
+                            <div class="max-w-[180px] mb-[30px]">
+                                <img src="assets/images/logo2.png" alt="blog">
+                            </div>
+                            <p class="mb-[10px] text-white text-[16px] leading-[25px]">Management consulting includes a
+                                broad
+                                range of activities,
+                                and the many firms and their
+                                members often define these practices.</p>
+                            <ul class="pt-[10px]">
+                                <li class="float-left text-[22px] text-white">
+                                    <a class="text-white w-[36px] h-[36px] leading-[40px]
+                                     bg-[rgba(255,255,255,0.1)] block text-center rounded-[50%]
+                                      text-[18px] transition-all
+                                     hover:text-[#232f4b] hover:bg-[#fff]" href="#">
+                                        <i class="ti-facebook"></i>
+                                    </a>
+                                </li>
+                                <li class="float-left text-[22px] text-white ml-[30px] lg:ml-[20px]">
+                                    <a class="text-white w-[36px] h-[36px] leading-[40px]
+                                     bg-[rgba(255,255,255,0.1)] block text-center rounded-[50%]
+                                      text-[18px] transition-all
+                                     hover:text-[#232f4b] hover:bg-[#fff]" href="#">
+                                        <i class="ti-twitter-alt"></i>
+                                    </a>
+                                </li>
+                                <li class="float-left text-[22px] text-white ml-[30px] lg:ml-[20px]">
+                                    <a class="text-white w-[36px] h-[36px] leading-[40px]
+                                     bg-[rgba(255,255,255,0.1)] block text-center rounded-[50%]
+                                      text-[18px] transition-all
+                                     hover:text-[#232f4b] hover:bg-[#fff]" href="#">
+                                        <i class="ti-instagram"></i>
+                                    </a>
+                                </li>
+                                <li class="float-left text-[22px] text-white ml-[30px] lg:ml-[20px]">
+                                    <a class="text-white w-[36px] h-[36px] leading-[40px]
+                                     bg-[rgba(255,255,255,0.1)] block text-center rounded-[50%]
+                                      text-[18px] transition-all
+                                     hover:text-[#232f4b] hover:bg-[#fff]" href="#">
+                                        <i class="ti-google"></i>
+                                    </a>
+                                </li>
+                            </ul>
                         </div>
-                     </div>
-                     <div class="col-xl col-md-6 mb-30">
-                        <div class="ca-footer widget-2">
-                           <h4 class="ca-title fnw-700 theme-black-3 pb-24">Quick Links</h4>
-                           <div class="ca-footer-menu ca-footer-menu-3">
-                              <ul>
-                                 <li><a href="index.html">Home</a></li>
-                                 <li><a href="service.html">Service</a></li>
-                                 <li><a href="about.html">About Us</a></li>
-                                 <li><a href="blog.html">Latest News</a></li>
-                                 <li><a href="contact.html">Contact Us</a></li>
-                              </ul>
-                           </div>
+                        <div class="col-span-3 lg:col-span-3 md:col-span-6 sm:col-span-6 col:col-span-12 md:mb-[30px]">
+                            <div class="pl-[50px] lg:pl-0 md:pl-0">
+                                <div class="mb-[30px]">
+                                    <h3 class="text-[20px] text-white uppercase relative
+                                     font-heading-font-s2">Contact </h3>
+                                </div>
+                                <ul>
+                                    <li class="pb-[15px] relative pl-[35px] text-[#e5e3e3] text-[17px]">
+                                        <i class="fi flaticon-location absolute left-0 top-0 text-[20px] mr-[15px]"></i>
+                                        7 Green Lake Street Crawfordsville, IN
+                                        47933
+                                    </li>
+                                    <li class="pb-[15px] relative pl-[35px] text-[#e5e3e3] text-[17px]">
+                                        <i
+                                            class="fi flaticon-phone-call absolute left-0 top-0 text-[20px] mr-[15px]"></i>
+                                        +1 800 123 456 789
+                                    </li>
+                                    <li class="pb-[15px] relative pl-[35px] text-[#e5e3e3] text-[17px]">
+                                        <i class="fi flaticon-send absolute left-0 top-0 text-[20px] mr-[15px]"></i>
+                                        Consultar@gmail.com
+                                    </li>
+                                </ul>
+                            </div>
                         </div>
-                     </div>
-                     <div class="col-xl col-md-6 mb-30">
-                        <div class="ca-footer widget-3">
-                           <h4 class="ca-title fnw-700 theme-black-3 pb-24">Other Links</h4>
-                           <div class="ca-footer-menu ca-footer-menu-3">
-                              <ul>
-                                 <li><a href="#">Maintenance</a></li>
-                                 <li><a href="#">Our Team</a></li>
-                                 <li><a href="#">Reviews & Awards</a></li>
-                                 <li><a href="#">Personal</a></li>
-                                 <li><a href="#">Certifications</a></li>
-                              </ul>
-                           </div>
+                        <div class="col-span-3 lg:col-span-3 md:col-span-6 sm:col-span-6 col:col-span-12 md:mb-[30px]">
+                            <div class="pl-[50px] lg:pl-0 md:pl-0">
+                                <div class="mb-[30px]">
+                                    <h3 class="text-[20px] text-white uppercase relative
+                                     font-heading-font-s2">Services</h3>
+                                </div>
+                                <ul>
+                                    <li class="text-[#fff]">
+                                        <a href="service-single.html"
+                                            class="text-[17px] transition-all hover:underline">
+                                            Advanced Analytics
+                                        </a>
+                                    </li>
+                                    <li class="text-[#fff] pt-[10px]">
+                                        <a href="service-single.html"
+                                            class="text-[17px] transition-all hover:underline">
+                                            Corporate Finance
+                                        </a>
+                                    </li>
+                                    <li class="text-[#fff] pt-[10px]">
+                                        <a href="service-single.html"
+                                            class="text-[17px] transition-all hover:underline">
+                                            Information Technology
+                                        </a>
+                                    </li>
+                                    <li class="text-[#fff] pt-[10px]">
+                                        <a href="service-single.html"
+                                            class="text-[17px] transition-all hover:underline">
+                                            Customer Strategy
+                                        </a>
+                                    </li>
+                                    <li class="text-[#fff] pt-[10px]">
+                                        <a href="service-single.html"
+                                            class="text-[17px] transition-all hover:underline">
+                                            Change Management
+                                        </a>
+                                    </li>
+
+                                </ul>
+                            </div>
                         </div>
-                     </div>
-                     <div class="col-xl-4 col-md-6 mb-30">
-                        <div class="ca-footer widget-4">
-                           <h4 class="ca-title fnw-700 theme-black-3 pb-24">Other Links</h4>
-                           <div class="ca-ft-content">
-                              <p class="pb-32">Subscribe us & receive our latest news & articles</p>
-                           </div>
-                           <div class="ca-footer-email-sub ca-footer-email-sub-3">
-                              <form action="#">
-                                 <input type="email" placeholder="Email Address..">
-                              </form>
-                              <button class="ca-btn-primary-3 theme-bg-3 text-white br-50" type="submit" value="submit">Subscribe Now <span><i class="fa-solid fa-angle-right"></i></span></button>
-                           </div>
+                        <div class="col-span-3 lg:col-span-3 md:col-span-6 sm:col-span-6 col:col-span-12 md:mb-[30px]">
+                            <div class="mb-[30px]">
+                                <h3 class="text-[20px] text-white uppercase relative
+                                     font-heading-font-s2">PROJECTS</h3>
+                            </div>
+                            <ul class="flex flex-wrap mx-[-3px]">
+                                <li class="max-w-[33.33%] mb-[3px] px-[3px] flex-[0_0_33.33%]">
+                                    <a href="project-single.html">
+                                        <img class="w-full" src="assets/images/instragram/1.jpg" alt="">
+                                    </a>
+                                </li>
+
+                                <li class="max-w-[33.33%] mb-[3px] px-[3px] flex-[0_0_33.33%]">
+                                    <a href="project-single.html">
+                                        <img class="w-full" src="assets/images/instragram/2.jpg" alt="">
+                                    </a>
+                                </li>
+                                <li class="max-w-[33.33%] mb-[3px] px-[3px] flex-[0_0_33.33%]">
+                                    <a href="project-single.html">
+                                        <img class="w-full" src="assets/images/instragram/3.jpg" alt="">
+                                    </a>
+                                </li>
+                                <li class="max-w-[33.33%] mb-[3px] px-[3px] flex-[0_0_33.33%]">
+                                    <a href="project-single.html">
+                                        <img class="w-full" src="assets/images/instragram/4.jpg" alt="">
+                                    </a>
+                                </li>
+                                <li class="max-w-[33.33%] mb-[3px] px-[3px] flex-[0_0_33.33%]">
+                                    <a href="project-single.html">
+                                        <img class="w-full" src="assets/images/instragram/5.jpg" alt="">
+                                    </a>
+                                </li>
+                                <li class="max-w-[33.33%] mb-[3px] px-[3px] flex-[0_0_33.33%]">
+                                    <a href="project-single.html">
+                                        <img class="w-full" src="assets/images/instragram/6.jpg" alt="">
+                                    </a>
+                                </li>
+                            </ul>
                         </div>
-                     </div>
-                  </div>
-                  <div class="row">
-                     <div class="col-lg-12">
-                        <div class="copy-right-border border-1"></div>
-                     </div>
-                     <div class="col-lg-6">
-                        <p class="copry-right-text pt-24">Copyright &COPY;2024 Cargon. All Rights Reserved</p>
-                     </div>
-                     <div class="col-lg-6">
-                        <div class="copy-right-menu pt-24">
-                           <ul>
-                              <li><a href="#">Terms & Conditions</a></li>
-                              <li><a href="#">Privacy Policy</a></li>
-                           </ul>
-                        </div>
-                     </div>
-                  </div>
-               </div>
+                    </div>
+                </div>
             </div>
-         </div>
-      </footer>
-      <!-- footer section end-->
-      <button id="topBtn3"><i class="fa-solid fa-arrow-up"></i></button>
-      <!-- js file -->
-      <script src="assets/js/jquery-3.7.1.min.js"></script>
-      <script src="assets/js/bootstrap.bundle.min.js"></script>
-      <script src="assets/js/jquery.magnific-popup.min.js"></script>
-      <script src="assets/js/jquery.counterup.min.js"></script>
-      <script src="assets/js/slick.min.js"></script>
-      <script src="assets/js/jquery.nice-select.js"></script>
-      <script src="assets/js/waypoints.min.js"></script>
-      <script src="assets/js/aos.js"></script>
-      <script src="assets/js/main.js"></script>
-   </body>
+            <div class="text-center relative bg-[#141d37] py-[20px]">
+                <div class="wraper">
+                    <p class="inline-block text-[15px] text-white">
+                        Copyright &copy; 2023 Consultar by
+                        <a href="index.html">wpOceans</a>.
+                        All Rights Reserved.</p>
+                </div>
+            </div>
+        </section>
+
+
+    </div>
+    <!-- end of page-wrapper -->
+
+    <!-- All JavaScript files
+    ================================================== -->
+    <script src="assets/js/jquery.min.js"></script>
+    <!-- Plugins for this template -->
+    <script src="assets/js/modernizr.custom.js"></script>
+    <script src="assets/js/jquery.dlmenu.js"></script>
+    <script src="assets/js/jquery-plugin-collection.js"></script>
+    <script src="assets/js/tw-elements.umd.min.js"></script>
+    <script src="assets/js/moving-animation.js"></script>
+    <!-- Custom script for this template -->
+    <script src="assets/js/script.js"></script>
+</body>
+
 </html>

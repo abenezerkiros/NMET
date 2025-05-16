@@ -1,0 +1,104 @@
+/* body fonts */
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;600;700&display=swap');
+@tailwind base;
+
+@layer base {
+    body {
+        font-family: 'Nunito Sans';
+        font-size: 16px;
+        color: #4f555a;
+        line-height: 1.8em;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        font-family: 'Futura PT';
+        color: #232f4b;
+    }
+
+    @font-face {
+        font-family: 'Futura PT Demi';
+        src: url('../fonts/FuturaPT-Demi.woff2');
+        font-weight: 600;
+        font-style: normal;
+        font-display: swap;
+    }
+
+    @font-face {
+        font-family: 'Futura PT Demi';
+        src: url('../fonts/FuturaPT-DemiObl.woff2');
+        font-weight: 600;
+        font-style: italic;
+        font-display: swap;
+    }
+
+    @font-face {
+        font-family: 'Futura PT';
+        src: url('../fonts/FuturaPT-HeavyObl.woff2');
+        font-weight: 900;
+        font-style: italic;
+        font-display: swap;
+    }
+
+    @font-face {
+        font-family: 'Futura PT';
+        src: url('../fonts/text-font/FuturaPT-Heavy.woff');
+        font-weight: 900;
+        font-style: italic;
+        font-display: swap;
+    }
+
+    @font-face {
+        font-family: 'Futura PT';
+        src: url('../fonts/FuturaPT-Light.woff2');
+        font-weight: 300;
+        font-style: normal;
+        font-display: swap;
+    }
+
+    @font-face {
+        font-family: 'Futura PT';
+        src: url('../fonts/FuturaPT-LightObl.woff2');
+        font-weight: 300;
+        font-style: italic;
+        font-display: swap;
+    }
+
+    @font-face {
+        font-family: 'Futura PT';
+        src: url('../fonts/FuturaPT-Medium.woff2');
+        font-weight: 500;
+        font-style: normal;
+        font-display: swap;
+    }
+
+    @font-face {
+        font-family: 'Futura PT';
+        src: url('../fonts/FuturaPT-MediumObl.woff2');
+        font-weight: 500;
+        font-style: italic;
+        font-display: swap;
+    }
+}
+
+@tailwind components;
+@tailwind utilities;
+
+.section-wrap {
+    @apply py-[120px] md:py-[90px] sm:py-[80px] relative z-10
+}
+
+.wraper {
+    @apply mx-auto max-w-[1170px] xl:px-[12px] lg:px-[12px] md:px-[20px] sm:px-[10px]
+}
+
+
+
+.clip-your-needful-style {
+    -webkit-clip-path: polygon(0 0, 100% 0, 55% 100%, 0% 100%);
+    clip-path: polygon(0 0, 100% 0, 55% 100%, 0% 100%);
+}
