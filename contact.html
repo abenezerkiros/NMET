@@ -22,7 +22,44 @@
     <link href="assets/css/odometer-theme-default.css" rel="stylesheet">
     <link href="assets/css/global.css" rel="stylesheet">
     <link href="assets/css/style.css" rel="stylesheet">
-
+    <style>
+        .input-wrapper {
+          position: relative;
+          display: flex;
+          align-items: center;
+          max-width: 100%;
+        }
+      
+        .custom-input {
+          padding: 14px 48px 14px 24px;
+          border-radius: 40px;
+          border: 1px solid #e1e1e1;
+          background: #f7f9fc;
+          font-size: 16px;
+          width: 100%;
+          appearance: none;
+          -webkit-appearance: none;
+          -moz-appearance: none;
+        }
+      
+        input[type="date"]::-webkit-calendar-picker-indicator,
+        input[type="time"]::-webkit-calendar-picker-indicator {
+          opacity: 0;
+          pointer-events: none;
+        }
+      
+        .custom-icon {
+          position: absolute;
+          right: 20px;
+          top: 50%;
+          transform: translateY(-50%);
+          cursor: pointer;
+          font-size: 18px;
+          color: #444;
+          z-index: 2;
+        }
+      </style>
+      
 </head>
 
 <body>
@@ -186,29 +223,67 @@
 
 <section class="pt-[120px] pb-[100px] bg-[#f9fbff]">
     <div class="wraper">
-        <div class="max-w-[800px] mx-auto bg-white rounded-[20px] shadow-[0_10px_40px_rgba(0,0,0,0.1)] p-[50px] border border-[#e3e8f0]">
-            <h2 class="text-[36px] text-center text-[#232f4b] mb-[30px] font-heading-font font-semibold">Schedule Your Ride</h2>
-            <form action="https://formspree.io/f/xblonzeo" method="POST" id="booking-form">
-                <div class="grid grid-cols-2 gap-6 sm:grid-cols-1">
-                    <input type="text" name="name" placeholder="Full Name*" required style="padding: 14px 24px; border-radius: 40px; border: 1px solid #e1e1e1; background: #f7f9fc; font-size: 16px;">
-                    <input type="email" name="email" placeholder="Email Address*" required style="padding: 14px 24px; border-radius: 40px; border: 1px solid #e1e1e1; background: #f7f9fc; font-size: 16px;">
-                    <input type="phone" name="Phone Number" placeholder="Phone Number*" required style="padding: 14px 24px; border-radius: 40px; border: 1px solid #e1e1e1; background: #f7f9fc; font-size: 16px;">
-
-                    <input type="text" name="pickup" placeholder="Pickup Location*" required style="padding: 14px 24px; border-radius: 40px; border: 1px solid #e1e1e1; background: #f7f9fc; font-size: 16px;">
-
-                    <input type="text" name="dropoff" placeholder="Dropoff Location*" required style="padding: 14px 24px; border-radius: 40px; border: 1px solid #e1e1e1; background: #f7f9fc; font-size: 16px;">
-                    <input type="date" name="date" placeholder="Pickup Date" required style="padding: 14px 24px; border-radius: 40px; border: 1px solid #e1e1e1; background: #f7f9fc; font-size: 16px;">
-                    <input type="time" name="time" placeholder="Pickup Time" required style="padding: 14px 24px; border-radius: 40px; border: 1px solid #e1e1e1; background: #f7f9fc; font-size: 16px;">
+      <div class="max-w-[800px] mx-auto bg-white rounded-[20px] shadow-[0_10px_40px_rgba(0,0,0,0.1)] p-[50px] border border-[#e3e8f0]">
+        <h2 class="text-[36px] text-center text-[#232f4b] mb-[30px] font-heading-font font-semibold">Schedule Your Ride</h2>
+        <form action="https://formspree.io/f/xblonzeo" method="POST" id="booking-form">
+          <div class="grid grid-cols-2 gap-6 sm:grid-cols-1">
+  
+            <div>
+              <label for="name" class="block text-[#555] mb-2 text-[15px]">Full Name*</label>
+              <input id="name" type="text" name="name" placeholder="Full Name*" required style="padding: 14px 24px; border-radius: 40px; border: 1px solid #e1e1e1; background: #f7f9fc; font-size: 16px; width: 100%;">
+            </div>
+  
+            <div>
+              <label for="email" class="block text-[#555] mb-2 text-[15px]">Email Address*</label>
+              <input id="email" type="email" name="email" placeholder="Email Address*" required style="padding: 14px 24px; border-radius: 40px; border: 1px solid #e1e1e1; background: #f7f9fc; font-size: 16px; width: 100%;">
+            </div>
+  
+            <div>
+              <label for="phone" class="block text-[#555] mb-2 text-[15px]">Phone Number*</label>
+              <input id="phone" type="tel" name="Phone Number" placeholder="Phone Number*" required style="padding: 14px 24px; border-radius: 40px; border: 1px solid #e1e1e1; background: #f7f9fc; font-size: 16px; width: 100%;">
+            </div>
+  
+            <div>
+              <label for="pickup" class="block text-[#555] mb-2 text-[15px]">Pickup Location*</label>
+              <input id="pickup" type="text" name="pickup" placeholder="Pickup Location*" required style="padding: 14px 24px; border-radius: 40px; border: 1px solid #e1e1e1; background: #f7f9fc; font-size: 16px; width: 100%;">
+            </div>
+  
+            <div>
+              <label for="dropoff" class="block text-[#555] mb-2 text-[15px]">Dropoff Location*</label>
+              <input id="dropoff" type="text" name="dropoff" placeholder="Dropoff Location*" required style="padding: 14px 24px; border-radius: 40px; border: 1px solid #e1e1e1; background: #f7f9fc; font-size: 16px; width: 100%;">
+            </div>
+  
+            <div>
+                <label for="pickupDate" class="block text-[#555] mb-2 text-[15px]">Pickup Date*</label>
+                <div class="input-wrapper">
+                  <input type="date" id="pickupDate" class="custom-input" name="date" required>
+                  <span class="custom-icon" onclick="document.getElementById('pickupDate').showPicker()">📅</span>
                 </div>
-                <textarea name="note" placeholder="Additional Notes..." style="width: 100%; height: 140px; margin-top: 25px; padding: 20px 24px; border-radius: 25px; border: 1px solid #e1e1e1; background: #f7f9fc; font-size: 16px;"></textarea>
-                <div class="text-center mt-[35px]">
-                    <button type="submit" style="background: linear-gradient(to right, #4f68f9, #3a55d6); color: white; padding: 16px 45px; border-radius: 60px; text-transform: uppercase; font-weight: 700; font-size: 16px; transition: all 0.3s; border: none; box-shadow: 0px 8px 20px rgba(55,87,247,0.3);">Book Now</button>
+              </div>
+              
+              <!-- Time -->
+              <div>
+                <label for="pickupTime" class="block text-[#555] mb-2 text-[15px]">Pickup Time*</label>
+                <div class="input-wrapper">
+                  <input type="time" id="pickupTime" class="custom-input" name="time" required>
+                  <span class="custom-icon" onclick="document.getElementById('pickupTime').showPicker()">⏰</span>
                 </div>
-            </form>
-            
-        </div>
+              </div>
+          </div>
+  
+          <div class="mt-[25px]">
+            <label for="note" class="block text-[#555] mb-2 text-[15px]">Additional Notes</label>
+            <textarea id="note" name="note" placeholder="Additional Notes..." style="width: 100%; height: 140px; padding: 20px 24px; border-radius: 25px; border: 1px solid #e1e1e1; background: #f7f9fc; font-size: 16px;"></textarea>
+          </div>
+  
+          <div class="text-center mt-[35px]">
+            <button type="submit" style="background: linear-gradient(to right, #4f68f9, #3a55d6); color: white; padding: 16px 45px; border-radius: 60px; text-transform: uppercase; font-weight: 700; font-size: 16px; transition: all 0.3s; border: none; box-shadow: 0px 8px 20px rgba(55,87,247,0.3);">Book Now</button>
+          </div>
+        </form>
+      </div>
     </div>
-</section>
+  </section>
+  
 
         <!--  start contact-map -->
         <section class="wpo-contact-map-section">
